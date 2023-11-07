@@ -1,5 +1,8 @@
-# Confronto tra Reti Neurali Ricorrenti (RNN) e Transformer
+# Dalle Reti Neurali Ricorrenti (RNN) ai Transformer: la svolta.
 
+All you need is love ... ma non per l'AI. Piuttosto ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) è il seminal paper del 2017 da cui inizia la svolta. Si definisce una nuova architettura di #naturallanguageprocessing basata sul concetto di "attenzione" che scala meglio delle precedenti soluzioni.
+
+Una lettura densa ma interessante che consiglio a chi vuole iniziare a capire perché ChatGPT sa fare quello che sa fare.
 
 Le **Reti Neurali Ricorrenti (Recurrent Neural Networks, RNN)** e i **Transformer** sono due architetture di rete neurale utilizzate per elaborare dati sequenziali, ma hanno differenze significative nella loro struttura e nel modo in cui gestiscono le informazioni.
 
