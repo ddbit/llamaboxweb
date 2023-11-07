@@ -1,5 +1,6 @@
 # Confronto tra Reti Neurali Ricorrenti (RNN) e Transformer
 
+
 Le **Reti Neurali Ricorrenti (Recurrent Neural Networks, RNN)** e i **Transformer** sono due architetture di rete neurale utilizzate per elaborare dati sequenziali, ma hanno differenze significative nella loro struttura e nel modo in cui gestiscono le informazioni.
 
 ## Reti Neurali Ricorrenti (RNN):
