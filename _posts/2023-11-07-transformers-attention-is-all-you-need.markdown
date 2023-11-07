@@ -19,9 +19,11 @@ Le **Reti Neurali Ricorrenti (Recurrent Neural Networks, RNN)** e i **Transforme
 In sintesi, mentre le RNN lavorano sequenzialmente e possono avere difficoltà con le dipendenze a lungo termine, i Transformer gestiscono le sequenze in modo parallelo e sono molto più efficaci nell'apprendere queste dipendenze, il che li rende particolarmente adatti per applicazioni come la traduzione automatica, la generazione di testo e altre complesse attività di elaborazione del linguaggio naturale.
 
 
-# Il Concetto di "Attention" nel Documento "Attention Is All You Need"
+# Il Concetto di "Attention" nel Paper "Attention Is All You Need"
 
-Il concetto di "attention" nel documento "Attention Is All You Need" si riferisce a un meccanismo che permette ai modelli di focalizzarsi su parti specifiche di un input quando eseguono una determinata compito. Di seguito è riportata una spiegazione dettagliata basata sulle informazioni trovate nel documento:
+Il paper in questione si può considerare il punto di svolta nell'evoluzione dei modelli di linguaggio. Punto dal quale sono poi stati sviluppati i modelli LLM oggi in voga tra cui GPT e LLama.
+
+Il concetto di "attention" nel documento ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) si riferisce a un meccanismo che permette ai modelli di focalizzarsi su parti specifiche di un input quando eseguono una determinata compito. Di seguito è riportata una spiegazione dettagliata basata sulle informazioni trovate nel documento:
 
 ## Scaled Dot-Product Attention:
 
