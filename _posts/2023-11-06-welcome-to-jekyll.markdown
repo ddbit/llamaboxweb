@@ -1,29 +1,25 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Llamabox!"
 date:   2023-11-06 17:02:16 +0000
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+L'addestramento di modelli di lingua di grandi dimensioni come LLaMa 2.0 o 
+ChatGPT-3.5 da zero può essere un'impresa fuori portata per la maggiorparte di noi.
 
-Jekyll requires blog post files to be named according to the following format:
+**llama** 
+Un rapporto ha suggerito che il costo per addestrare vari modelli 
+LLaMa (includendo le versioni da 7B, 13B, 33B, e 65B parametri) era di circa $7milioni.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+**gpt3** 
+L'articolo suggerisce anche che l'addestramento di un modello GPT 
+con 500 miliardi di parametri su un cluster CS-2 a 
+quattro nodi potrebbe richiedere circa un anno, 
+con un costo associato di diversi milioni di dollari, se non di più​.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Dobbiamo quindi rassegnarci a fare fine-tuning su modelli altrui? Forse non è poi così male, ma l'AI hardcore non è una cosa per tutti, almeno per ora.
+[Questo rapporto][link] fornisce altre utili informazioni su questo argomento.
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+[link]: https://www.nextplatform.com/2022/12/01/counting-the-cost-of-training-large-language-models/
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

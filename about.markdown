@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Questo sito è curato da Davide Carboni. E' un semplice blog che riporta 
+esperimenti e letteratura relativa al fine tuning dei modelli di linguaggio LLM
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Se vuoi sapere cos'è un LLM vedi la voce su [wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
 
 
-[jekyll-organization]: https://github.com/jekyll
+[Davide Carboni](https://digitaldavide.me) è un consulente esperto di tecnologia. Oltre il presente
+sito è anche il curatore della webzine [smartcontract.tips](https://smartcontract.tips) che si occupa
+di sicurezza in blockchain.
+
+
