@@ -5,4 +5,4 @@
 layout: home
 ---
 
-![Il Llama](/img/lama.png)
+![Il Llama](/lama.png)
