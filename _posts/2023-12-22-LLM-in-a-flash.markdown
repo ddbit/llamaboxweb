@@ -27,7 +27,7 @@ Implementando questa tecnica di windowing, il sistema può gestire in modo effic
 
 La strategia di "raggruppamento riga-colonna", come descritta nel documento, comporta l'archiviazione di colonne e righe corrispondenti insieme nella memoria flash, permettendo così di consolidare i dati in blocchi più grandi per la lettura. Questo approccio è particolarmente efficace perché:
 
-1. **Raddoppia la Dimensione del Blocco**: Memorizzando ogni elemento dei pesi della rete in un certo numero di byte, questo raggruppamento raddoppia efficacemente la dimensione del blocco da  $d_model * num\_bytes a 2d_model * num\_bytes. Questo aumento della dimensione del blocco è fondamentale per migliorare il throughput del modello.
+1. **Raddoppia la Dimensione del Blocco**: Memorizzando ogni elemento dei pesi della rete in un certo numero di byte, questo raggruppamento raddoppia efficacemente la dimensione del blocco da  d_model * num_bytes a 2 * d_model * num_bytes. Questo aumento della dimensione del blocco è fondamentale per migliorare il throughput del modello.
 
 2. **Sfruttamento della Co-attivazione dei Neuroni**: Il documento ha anche esplorato il concetto di raggruppamento basato sulla co-attivazione dei neuroni. Si ipotizzava che i neuroni potessero essere altamente correlati nei loro schemi di attività, il che potrebbe consentire ulteriori raggruppamenti. Questo è stato verificato analizzando le attivazioni dei neuroni su un dataset di validazione, dove si è osservato che la coattivazione di ogni neurone con gli altri forma una distribuzione a legge di potenza.
 
