@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Llamabox!"
 date:   2023-11-06 17:02:16 +0000
-categories: jekyll update
+
 ---
 L'addestramento di modelli di lingua di grandi dimensioni come LLaMa 2.0 o 
 ChatGPT-3.5 da zero può essere un'impresa fuori portata per la maggiorparte di noi.

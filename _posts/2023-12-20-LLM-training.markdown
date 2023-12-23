@@ -2,7 +2,6 @@
 layout: post
 title:  "Large Language Models (LLM): pre-training, fine-tuning o prompt engineering"
 date: 2023-12-19 17:02:16 +0000
-categories: jekyll update
 ---
 
 
