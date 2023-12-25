@@ -53,6 +53,21 @@ Il concetto di "attention" nel documento ["Attention Is All You Need"](https://a
 - Il self-attention, a volte chiamato intra-attention, è un meccanismo di attenzione che collega diverse posizioni di una singola sequenza per calcolare una rappresentazione della sequenza.
 - Questo permette al modello di considerare l'intera sequenza di input per ogni output, facilitando la cattura di dipendenze a lungo termine.
 
+
+Prendiamo ad esempio questa frase da tradurre:
+
+”The animal didn't cross the street because it was too tired”
+
+A cosa si riferisce "it" in questa frase? Alla strada o all'animale? È una domanda semplice per un essere umano, ma non altrettanto per un algoritmo.
+
+Quando il modello elabora la parola "it", l'autotensione gli permette di associare "it" con "animal".
+
+Man mano che il modello elabora ogni parola (ogni posizione nella sequenza di input), l'autotensione gli consente di esaminare altre posizioni nella sequenza di input in cerca di indizi che possano aiutare a ottenere una migliore codifica per quella parola.
+
+Se sei familiare con le RNN (Reti Neurali Ricorrenti), pensa a come il mantenimento di uno stato nascosto permette a una RNN di integrare la sua rappresentazione delle parole/vettori precedenti con quella attualmente in elaborazione. L'autotensione è il metodo utilizzato dal Trasformatore per incorporare la "comprensione" di altre parole rilevanti in quella che stiamo elaborando.
+
+![self attention in un transformer](/images/self-attention.png)
+
 ## Efficienza del Transformer:
 
 - Il Transformer riduce il numero di operazioni necessarie per apprendere dipendenze tra posizioni distanti in una sequenza a un numero costante, a differenza delle RNN che richiedono un numero di operazioni proporzionale alla distanza tra le posizioni.

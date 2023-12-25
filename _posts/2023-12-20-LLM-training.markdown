@@ -14,3 +14,8 @@ Questo grafico estratto da [1] ci da un'idea del numero di operazioni necessarie
 [1] Brown, Tom, et al. "Language models are few-shot learners." Advances in neural information processing systems 33 (2020): 1877-1901.
 
 ![image](/images/training-cost.png)
+
+
+## Pre-trainng di un modello LLM
+
+Fondamentalmente, un Modello di Linguaggio di Grande Dimensione (LLM) mira a prevedere la parola successiva in una sequenza basandosi sulle parole che la precedono. L'addestramento preliminare è la fase iniziale in cui addestriamo l'LLM a prevedere questa parola successiva con maggiore accuratezza. È come insegnare al modello le sfumature del linguaggio prima di perfezionarlo per compiti specifici.
