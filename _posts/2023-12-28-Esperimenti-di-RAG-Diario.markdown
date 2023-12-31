@@ -2,7 +2,7 @@
 layout: post
 title:  "Esperimenti con LLM e RAG: Diario minimo di laboratorio"
 date:   2023-12-28 17:02:16 +0000
-
+listing: no-list 
 ---
 
 (articolo in fase di lavorazione)
@@ -57,6 +57,12 @@ Naturalmente ci sono molti dettagli tecnici che fortunatamente Llamaindex gestis
 
 R.Massimo è un bot basato su una base di contenuti e scritti di Massimo Chiriatti. Questi vengono "digeriti" attraverso la libreria Llamaindex e diventano il contesto per le conversazioni con il modello generale pretrained.
 
+Se vi state chiedendo perché R.Massimo, ecco questo fa il verso a R.Daneel e se non lo conoscete dovreste cercare nella bibliografia di Asimov che cosa significa. L'idea di aggiungere la R. ad un proprio gemello virtuale è stata riproposta nella realtà da David Orban, altro famoso futurologo, in un suo recente [post](https://www.linkedin.com/feed/update/urn:li:activity:7146081835490463744/)
+
+![cover abissi d'acciaio](/images/abissi-acciaio.jpg)
+
+
+
 Visto che ci muoviamo in un campo minato per quanto riguarda librerie e API e visto che siamo tutto sommato "novellini" (pur avendo lavorato per anni nel machine learning, ma qui cambia tutto) abbiamo deciso di avere una sola variabile "incontrollabile" alla volta. 
 
 Pertanto, visto che sperimentare sia Llamaindex che un modello locale sarebbe stato come dicono gli inglesi un "double trouble" abbiamo preferito iniziare con LlamaIndex e OpenAI api per usare il modello gpt-4. Sapevamo già usare le api di OpenAI e questa era un'incognita in meno (ma solo per il momento).
@@ -75,11 +81,32 @@ Certo non è proprio una user interface accativante, ma faceva il suo.
 
 ![image](/images/rmassimo-poc1.png)
 
-## Il bot Telegram
+## Prossimi passi
 
-(to be done ...)
+Il nostro bot funzionava abbastanza bene ma naturalmente era solo un passaggio verso qualcosa di più ambizioso. Apparivano all'orizzonte due priorità:
+- dare un'interfaccia utente più in linea con le aspettative di un utente esperto di chatgpt
+- lavorare per affrancarsi dall'abbraccio di openAI, ovvero far girare il sistema con un modello di nostra scelta
+
+Per quanto riguarda il secondo punto ci stiamo ancora lavorando. Sul piatto ci sono varie opzioni, tra cui Replicate, una piattaforma di LLM-as-a-service che permette di caricare qualsiasi modello nei formati standard con un modello di pricing pay-per-second dove i periodi di bootstrap e di idle time non sono contabilizzati. Ma abbiamo anche altre opzioni da valutare.
+
+Per quanto riguarda invece l'interfaccia utente ci sarebbero ovviamente alcune opzioni open source da valutare tra cui [Chatbot UI](https://www.chatbotui.com) che sembrano estremamente interessanti. Tuttavia, per minimizzare il lavoro e massimizzare la possibile adozione l'idea più semplice sembra essere quella di farlo diventare un bot Telegram
 
 
+## R.Massimo come Telegram bot
+
+Chi mastica la materia dei bot Telegram saprà come metterne in funzione uno sia una cosa estremamente semplice. In più esiste una bella libreria python che possiamo usare direttamente con il nostro host Python Anywhere.
+
+
+## Link rilevanti per la lettura
+
+- Codice sorgente su Github della [release di R.Massimo alla v0.1 con Llamaindex e openAI](https://github.com/ddbit/rag/releases/tag/v0.1)
+- [Versione attualmente online](https://ddbit.eu.pythonanywhere.com/static/index.html)
+- Bot Telegram [@rmassimobot](https://web.telegram.org/k/#@rmassimobot)
+- [Chatbot UI](https://www.chatbotui.com)
+- [Llamaindex](https://docs.llamaindex.ai)
+
+
+(a breve pubblicheremo la seconda parte dei nostri esperimenti, stay tuned)
 
 
 
