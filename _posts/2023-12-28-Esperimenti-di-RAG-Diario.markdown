@@ -2,12 +2,11 @@
 layout: post
 title:  "Esperimenti con LLM e RAG: Diario minimo di laboratorio"
 date:   2023-12-28 17:02:16 +0000
-listing: no-list 
 ---
 
-(articolo in fase di lavorazione)
+![preview image](/images/diario-lab-1.png)
 
-## Introduzione
+
 
 L'addestramento di modelli di lingua di grandi dimensioni come LLaMa 2.0 o 
 ChatGPT-3.5 da zero può essere un'impresa fuori portata per la maggiorparte di noi. 
