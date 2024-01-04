@@ -8,8 +8,10 @@ date:   2023-12-28 17:02:16 +0000
 
 
 
-L'addestramento di modelli di lingua di grandi dimensioni come LLaMa 2.0 o 
-ChatGPT-3.5 da zero può essere un'impresa fuori portata per la maggiorparte di noi. 
+
+Mi vengono in mente varie ragioni per cui sarebbe meglio non doversi affidare a sistemi terzi come ChatGPT senza però rinunciare alla possibilità di utilizzare un modello LLM nel proprio business.
+
+Sappiamo anche però che l'addestramento di modelli di lingua di grandi dimensioni come LLaMa 2.0 o ChatGPT-4 da zero può essere un'impresa fuori portata per la maggiorparte di noi. 
 
 Quindi insieme al collega ed amico Massimo Chiriatti ci siamo posti l'obiettivo di capire e sperimentare qualche alternativa che ci permettesse di far funzionare la nostra AI senza dover necessariamente basarci sull'infrastruttura di OpenAI.
 
@@ -35,7 +37,7 @@ Senza contare che il fine-tuning ha anche delle contro indicazioni non da poco c
 
 [In questo articolo](https://medium.com/@S.Shakir/mastering-task-specific-brilliance-battling-catastrophic-forgetting-with-fine-tuned-llms-c0bde311d406) il tema è spiegato con maggiori dettagli e vengono anche introdotte alcune tecniche per non causare questo disastro, tra queste la Parameter Efficient Fine-Tuning (PEFT).
 
-(...to be continued)
+
 
 
 ## Ma cos'è il RAG dei modelli LLM/AI?
