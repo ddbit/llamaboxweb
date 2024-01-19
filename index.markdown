@@ -4,7 +4,7 @@
 
 layout: default
 ---
-
+![cover](/images/cover-wide-articoli.png)
 <ul>
   {% for post in site.posts %}
     <li>
@@ -14,7 +14,10 @@ layout: default
               </a>
             </div>
             <div >{{ post.excerpt | strip_html | truncatewords:50 }}</div>
-           <div>{{ post.date | date: "%d %B %Y" }}</div>
+            <div>
+              <i class="fa-regular fa-calendar"></i>
+              {{ post.date | date: "%d %B %Y" }}
+            </div>
            
            <br/><br/>
     </li>

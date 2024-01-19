@@ -2,6 +2,7 @@
 layout: post
 title:  "Come misurare la qualità del RAG nei modelli LLM"
 date:   2024-01-12 17:02:16 +0000
+excerpt: "Si fa presto a dire RAG, ma poi come misuriamo l'efficacia della nostra pipeline RAG. Cominciamo a metterci qualche dubbio e a trovare qualche risposta."
 ---
 
 

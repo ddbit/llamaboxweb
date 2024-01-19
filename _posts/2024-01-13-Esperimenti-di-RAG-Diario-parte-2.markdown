@@ -2,6 +2,8 @@
 layout: post
 title:  "Esperimenti con LLM e RAG: Diario minimo di laboratorio - parte seconda"
 date:   2024-01-13 17:02:16 +0000
+excerpt: "Seconda parte del nostro percorso di esplorazione con i modelli di 
+linguaggio LLM e il RAG con una nuova versione di R-Massimo, questa volta senza OpenAI."
 ---
 
 ![preview image](/images/diario-lab-1.png)
@@ -66,3 +68,6 @@ In realtà rispetto alla versione con Open AI da un punto di vista funzionale no
 - mettere un vector DB persistente e non in-memory come quello di default che usiamo ora con Llamaindex.
 
 *Tutto questo lo lasciamo alla prossima tappa del nostro laboratorio LLM*
+
+<i class="fa-brands fa-github"></i>
+[Link al progetto su Git](https://github.com/ddbit/rag/releases/tag/v0.2)
