@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://llamabox.eu/</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/about/</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2024/01/13/Esperimenti-di-RAG-Diario-parte-2.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2024/01/12/come-misurare-la-qualita-del-rag.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2024/01/09/mixtral-mixed-experts-model.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2023/12/28/il-modello-multimodale-di-apple-ferret.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2023/12/28/Esperimenti-di-RAG-Diario.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2023/12/22/LLM-in-a-flash.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2023/12/19/LLM-training.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://llamabox.eu/2023/11/07/Dalle-Reti-Neurali-Ricorrenti-%28RNN%29-ai-Transformer.html</loc>
+	<lastmod>2024-01-19T18:27:57+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+</urlset>
