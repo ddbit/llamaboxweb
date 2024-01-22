@@ -4,7 +4,7 @@
 
 layout: default
 ---
-![cover](/images/cover-wide-articoli.png)
+![cover](/images/cover-main-llamabox.png)
 <ul>
   {% for post in site.posts %}
     <li>
