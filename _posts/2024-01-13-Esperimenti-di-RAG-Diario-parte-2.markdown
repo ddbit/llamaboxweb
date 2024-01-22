@@ -49,6 +49,10 @@ ed il modello è pronto.
 
 La rimozione di OpenAI ci ha permesso di far girare il modello localmente, per ora ci siamo limitati a Mistral7B, ma presto grazie ad Ollama sperimenteremo modelli più "grossi" come il recente Mixtral di cui abbiamo scritto [qui](/2024/01/09/mixtral-mixed-experts-model.html)
 
+Questa è l'architettura senza openAI
+
+![basic rag arch](/images/basic-rag-llamabox.png)
+
 
 Il prototipo è testabile [al nuovo indirizzo](http://ai01.tech-isg.it/static/index.html#) (il vecchio sarà rediretto qui)
 
