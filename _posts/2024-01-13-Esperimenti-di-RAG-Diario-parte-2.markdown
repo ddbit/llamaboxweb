@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Esperimenti con LLM e RAG: Diario minimo di laboratorio - parte seconda"
+title:  "Esperimenti con LLM e RAG: Modello in Locale con Mistral e Ollama"
 date:   2024-01-13 17:02:16 +0000
 excerpt: "Seconda parte del nostro percorso di esplorazione con i modelli di 
 linguaggio LLM e il RAG con una nuova versione di R-Massimo, questa volta senza OpenAI."
