@@ -5,7 +5,7 @@ date:   2024-02-02 17:02:16 +0000
 description: "AI LLM e il RAG, Test e Valutazione della Qualità"
 ---
 
-> Se non lo Misuri non Lo Puoi Migliorare (Lord Kelvin)
+> Se non puoi misurarlo non lo puoi migliorare (Lord Kelvin)
 
 Quando si mette su un bot come il nostro [R-Massimo](/2024/01/13/Esperimenti-di-RAG-Diario-parte-2.html) che attinge ad una knowledge base locale per rispondere alle domande, i primi test sono manuali. Si pongono domande al prompt e si cerca di verificare se le risposte ricevute siano o meno coerenti con quanto ci aspettiamo.
 
