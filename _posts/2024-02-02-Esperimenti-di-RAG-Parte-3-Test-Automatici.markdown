@@ -75,3 +75,7 @@ Anche se non esiste un benchmark "one-size-fits-all" specifico per i modelli RAG
 
 
 
+
+## Referenze
+
+[How to evaluate a summarization task - OpenAI](https://cookbook.openai.com/examples/evaluation/how_to_eval_abstractive_summarization)
