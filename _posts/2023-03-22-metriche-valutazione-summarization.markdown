@@ -9,12 +9,12 @@ In questo articolo discutiamo le varie metriche per la valutazione di un task di
 ![good bad ugly](/images/good-bad-ugly.jpg)
 
 ## Metodo seguito
-L'approccio che seguiremo in questo articolo è il seguente:  prenderemo un testo completo e ne generiamo tramimte il modello sotto testing una sintesi.
-Per confrontare la sintesi del nostro modello (detto scherzosamente il Brutto) prenderemo 3 altre sintesi:
+L'approccio che seguiremo in questo articolo è il seguente:  prendiamo un testo completo e ne generiamo una sintesi usando il modello che vogliamo testare (Mistral7b in questo caso).
+Per confrontare la sintesi generata dal nostro modello (detto scherzosamente il Brutto) prenderemo 3 altre sintesi:
 
-- sintesi manuale che rappresenta il nostro riferimento (il Buono)
-- Un altro riassunto generato da un modello che riteniamo più esperto, in questo caso utilizzeremo il modello gpt-4.
-- Una sintesi completamente "sbagliata" (detta il Cattivo) ad esempio 30 parole a caso. Per evidenziare se le metriche sono coerenti con le aspettative.
+- sintesi manuale che rappresenta il nostro riferimento
+- Un altro riassunto generato da un modello che riteniamo più esperto, in questo caso utilizzeremo il modello gpt-4. (detto il Buono)
+- Una sintesi completamente "sbagliata" (detta il Cattivo) ad esempio N parole a caso. Per evidenziare se le metriche sono coerenti con le aspettative.
 
 ## Metriche usate
 
