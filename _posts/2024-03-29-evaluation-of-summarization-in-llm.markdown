@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Evaluation of the Summarization Task for an LLM Model: The Good, The Bad, and The Ugly"
+title:  "Evaluation of the Summarization Task for LLM: The Good, The Bad, and The Ugly"
 date:   2024-03-22 17:02:16 +0000
 slug: summary-eval
 permalink: /evaluation-of-summarization-task-llm-the-good-the-bad-the-ugly
