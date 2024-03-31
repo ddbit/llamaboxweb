@@ -39,7 +39,7 @@ The method proposed by OpenAI is based on four distinct criteria:
 
 For each of these criteria, we create prompts (prompts) by taking the original document and the abstract as input, using thought chain generation, and driving the model to obtain a numerical score from 1 to 5 for each criterion.
 
-## Risultati con le metriche non generative
+## Results from non-generative metrics
 
 <div>
 <style scoped>
