@@ -12,14 +12,15 @@ Il **punteggio Elo** è un metodo matematico per calcolare il livello relativo d
 1. **Base Iniziale**: Ogni giocatore inizia con un punteggio di base, comunemente 1500 punti, ma questo può variare a seconda dell'organizzazione che gestisce la competizione.
 
 2. **Aggiustamenti Basati sui Risultati**: Dopo ogni partita, punti vengono trasferiti dal perdente al vincitore. La quantità di punti trasferiti dipende da due fattori:
+
    - **Probabilità Prevista di Vincere**: Calcolata basandosi sui punteggi attuali dei due avversari. Se il vincitore era già considerato molto più forte, guadagnerà pochi punti. Se invece vince contro un avversario molto più forte, guadagnerà molti più punti.
    - **Risultato Effettivo**: Vincita, perdita, o pareggio.
 
 3. **Formula di Aggiustamento**: La formula usata per determinare il cambiamento nel punteggio è generalmente una variazione della seguente:
-   \[
-   R' = R + K \times (S - E)
-   \]
-   dove \( R' \) è il nuovo rating, \( R \) il rating precedente, \( K \) un fattore moltiplicativo (che varia in base alla competizione e spesso dipende dal rating del giocatore), \( S \) il risultato della partita (1 per una vittoria, 0.5 per un pareggio, 0 per una sconfitta), e \( E \) la probabilità prevista di vincere (calcolata tramite una funzione matematica che dipende dalla differenza dei punteggi).
+
+   $ R' = R + K \times (S - E) $
+
+   dove $ R' $ è il nuovo rating, $ R $ il rating precedente, $ K $ un fattore moltiplicativo (che varia in base alla competizione e spesso dipende dal rating del giocatore), $ S $ il risultato della partita (1 per una vittoria, 0.5 per un pareggio, 0 per una sconfitta), e $ E $ la probabilità prevista di vincere (calcolata tramite una funzione matematica che dipende dalla differenza dei punteggi).
 
 ### Applicazioni del punteggio Elo:
 - **Scacchi**: È ampiamente utilizzato per classificare i giocatori di scacchi. Il sistema di rating FIDE, che classifica i giocatori di scacchi internazionali, è basato sul punteggio Elo.
@@ -64,13 +65,18 @@ I modelli di linguaggio vengono costantemente aggiornati e migliorati. Gestire i
 
 ## Un Esempio pratico: la Chatbot Arena di LMSys
 
-La pagina "Leaderboard" su [https://chat.lmsys.org/?leaderboard](https://chat.lmsys.org/?leaderboard) fa parte della Chatbot Arena di LMSys, che classifica vari modelli di linguaggio di grande dimensione (LLM) basandosi sulle loro prestazioni attraverso differenti metriche, inclusa la valutazione Elo. Questa piattaforma permette agli utenti di interagire con diversi modelli e votare quelli che preferiscono basandosi sulle risposte a varie domande.
+La pagina "Leaderboard" su [https://chat.lmsys.org/?leaderboard](https://chat.lmsys.org/?leaderboard) fa parte della Chatbot Arena di LMSys, che classifica vari modelli di linguaggio di grande dimensione (LLM) basandosi sulle loro prestazioni attraverso differenti metriche, inclusa la valutazione Elo. 
 
-L'organizzazione LMSys ha incorporato un nuovo benchmark chiamato MT-Bench oltre alle tradizionali valutazioni Elo per fornire una valutazione più dettagliata delle capacità dei chatbot. MT-Bench include una serie di domande di conversazione multi-turno progettate per testare le abilità dei chatbot nel gestire dialoghi complessi e istruzioni【31†source】.
+LMSys ha incorporato un **nuovo benchmark chiamato MT-Bench oltre alle tradizionali valutazioni Elo** per fornire una valutazione più dettagliata delle capacità dei chatbot. 
+
+MT-Bench include una serie di domande di conversazione multi-turno progettate per testare le abilità dei chatbot nel gestire dialoghi complessi e istruzioni.
 
 Caratteristiche chiave di questa classifica includono:
+
 - **Valutazioni Elo:** I modelli sono valutati in modo simile ai giocatori di scacchi, dove le interazioni tra diversi modelli (che competono per rispondere alle stesse domande) risultano in aggiustamenti del punteggio Elo basati su vittorie e sconfitte.
+
 - **MT-Bench:** Un insieme impegnativo di domande di conversazione multi-turno mirate a valutare le capacità conversazionali e di seguimento istruzioni dei chatbot, con risultati che influenzano la loro posizione nella classifica.
+
 - **Interazioni degli Utenti:** La piattaforma è basata sul crowdsourcing, il che significa che le preferenze degli utenti giocano un ruolo significativo nel determinare i punteggi dei vari modelli.
 
-La Chatbot Arena e MT-Bench fanno parte del più ampio sforzo di LMSYS Org per valutare e migliorare l'efficacia degli LLM attraverso l'engagement della comunità e strumenti di benchmark avanzati. Questo approccio non solo evidenzia i punti di forza e le debolezze dei diversi modelli, ma spinge anche verso lo sviluppo di LLM più sofisticati e allineati alle esigenze degli utenti.
+La Chatbot Arena e MT-Bench fanno parte del più ampio sforzo di LMSYS Org per valutare e migliorare l'efficacia degli LLM **attraverso l'engagement della comunità** e strumenti di benchmark non convenzionali. 
