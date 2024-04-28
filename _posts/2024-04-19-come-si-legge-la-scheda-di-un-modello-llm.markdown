@@ -22,3 +22,37 @@ Come per i suoi predecessori, **l'uso di llama3 prevede un modulo di registrazio
 
 L'utente che utilizza i materiali di Llama3 è responsabile per assicurarsi che il loro uso sia conforme alle leggi vigenti, inclusi i diritti d'autore e le regolazioni del commercio. Se il modello genera output che violano i diritti d'autore, la responsabilità ricadrebbe sull'utente che ha implementato e utilizzato il modello in quel contesto specifico. Gli utenti sono anche tenuti a indennizzare e difendere Meta da qualsiasi reclamo terzo legato al loro uso dei materiali di Llama3.
 
+## Primi dati tecnici veri e propri
+
+> Model Architecture Llama 3 is an auto-regressive language model that uses an optimized transformer architecture. 
+
+Questo ci dice che tipo di modello stiamo usando.
+
+> The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align with human preferences for helpfulness and safety.
+
+Mentre qui ci informano sul fatto che l'addestramento è avvenuto in modo supervisionato e che utilizza un sistema di ri-addestramento continuo chiamato **reinforcement learning** che si nutre del feedback degli utenti.
+
+
+|  | Training Data | Params | Context length | GQA | Token count | Knowledge cutoff |
+| Llama 3 | A new mix of publicly available online data. | 8B | 8k | Yes | 15T+ | March, 2023 |
+| 70B | 8k | Yes | December, 2023|
+
+La tabella ci da poi alcune informazioni quantitative molto importanti:
+
+- **I parametri**: abbiamo due versioni del modello, con 8B e 70B di parametri, se vi siete mai chiesti cosa siano questi parametri, vi invito a leggere [questo articolo](https://kelvin.legal/understanding-large-language-models-what-are-paramters/). Giusto per fare un confronto, di GPT-4, che rappresenta un po' il leader di mercato, [si vocifera](https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/) che abbia oltre 1000 miliardi di parametri. Quindi Llama3 sembra un nano in confronto, ma in realtà il numero di parametri non è sempre un indicatore diretto della qualità di un LLM.
+
+- **Context lenght**, come sappiamo questa rappresenta la lunghezza massima dell'input che il modello può ingerire in fase di inferenza. Ricordiamo che GPT-4 Turbo ha un contesto fino a 128k token (circa 240 pagine da 400 parole). Anche in questo caso Llama3 sembra non poter competere con GPT-4 dato che il contesto disponibile per il modello di Meta è di **appena 8k tokens** (circa 16 pagine di scritto)
+
+- **GQA**, significa [Grouped Query Attention](https://klu.ai/glossary/grouped-query-attention), ed è una tecnica che ottimizza l'algoritmo di attenzione.
+
+- **Training set**, la scheda ci informa che Llama3 è stato addestrato con 15 mila miliardi di token provenienti da **fonti disponibili al pubblico**. Il che è una definizione vaga ma probabilmente lecita nell'attesa che la legislazione internazionale ponga dei precisi paletti sulla definizione di "disponibile" Vs "utilizzabile per addestrare algoritmi"
+
+## Instruction tuned Vs pre-Trained models
+
+Il modello viene fornito in queste due versioni. Ma cosa significa?
+
+Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
+
+
+*(in progress ... to be continued)*
+
