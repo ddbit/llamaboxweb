@@ -54,5 +54,45 @@ Il modello viene fornito in queste due versioni. Ma cosa significa?
 Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
 
 
+## Metriche di Conoscenza generale
+
+In generale ogni modello viene testato con dei benchmark su vari aspetti. Per gli aspetti più **generalisti** vengono usate le seguenti:
+
+### MMLU 
+
+MMLU è un test con domande a scelta multipla, quindi un benchmark piuttosto semplice. Il benchmark consiste in domande con quattro possibili risposte che coprono 57 domini di conoscenza generale raggruppati in categorie come: “Scienze umane”, “Scienze sociali”, “STEM”, ecc.
+
+```
+Question: Glucose is transported into the muscle cell:
+
+
+Choices:
+A. via protein transporters called GLUT4.
+B. only in the presence of insulin.
+C. via hexokinase.
+D. via monocarbylic acid transporters.
+
+
+Correct answer: A
+``` 
+[*source HuggingFace blog*](https://huggingface.co/blog/open-llm-leaderboard-mmlu)
+
+
+### CommonsenseQA
+
+CommonsenseQA è un set di dati per la risposta a domande di senso compiuto. Il dataset è composto da 12.247 domande con 5 scelte ciascuna. Il dataset è stato generato dai lavoratori di Amazon Mechanical Turk
+
+
+
+## Metriche di Comprensione del testo
+
+### SQuAD
+
+Lo [Stanford Question Answering Dataset (SQuAD)](https://rajpurkar.github.io/SQuAD-explorer/) è un dataset di comprensione della lettura, costituito da domande poste da crowdworker su un insieme di articoli di Wikipedia, in cui la risposta a ogni domanda è un segmento di testo, o span, dal passaggio di lettura corrispondente, oppure la domanda può essere senza risposta.
+
+SQuAD2.0 combina le 100.000 domande di SQuAD1.1 con oltre 50.000 domande senza risposta, scritte in modo contraddittorio dai crowdworker per sembrare simili a quelle con risposta. Per ottenere buoni risultati in SQuAD2.0, i sistemi devono non solo rispondere alle domande quando è possibile, ma anche determinare quando nessuna risposta è supportata dal paragrafo e astenersi dal rispondere.
+
+
+
 *(in progress ... to be continued)*
 
