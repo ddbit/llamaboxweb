@@ -54,9 +54,20 @@ Il modello viene fornito in queste due versioni. Ma cosa significa?
 Mentre il pre-trained è un modello che è stato addestrato attraverso il corpus di linguaggio naturale con lo scopo di apprendere la struttura delle frasi, i pattern ricorrenti, ed è capace di generare testi che "completano" l'input umano, il tipo **instruction-tuned** ha subito un successivo addestramento fine (fine-tuning), dove in modo supervisionato il modello è stato addestrato ad eseguire dei comandi e seguire istruzioni. Una spiegazione più soddisfacente di questo concetto è disponibile [nel blog di openAI](https://openai.com/research/instruction-following)
 
 
-## Metriche di Conoscenza generale
+## Metriche generaliste per i modelli pre-trained
 
-In generale ogni modello viene testato con dei benchmark su vari aspetti. Per gli aspetti più **generalisti** vengono usate le seguenti:
+In generale ogni modello pretrained viene testato con dei benchmark su vari aspetti del linguaggio dalla comprensione del testo ad aspetti più **generalisti** :
+
+| Benchmark                  | Llama 3 8B | Llama2 7B | Llama2 13B | Llama 3 70B | Llama2 70B |
+|----------------------------|------------|-----------|------------|-------------|------------|
+| MMLU (5-shot)              | 66.6       | 45.7      | 53.8       | 79.5        | 69.7       |
+| AGIEval English (3-5 shot) | 45.9       | 28.8      | 38.7       | 63          | 54.8       |
+| CommonSenseQA (7-shot)     | 72.6       | 57.6      | 67.6       | 83.8        | 78.7       |
+| Winogrande (5-shot)        | 76.1       | 73.3      | 75.4       | 83.1        | 81.8       |
+| BIG-Bench Hard (3-shot, CoT) | 61.1     | 38.1      | 47         | 81.3        | 65.7       |
+| ARC-Challenge (25-shot)    | 78.6       | 53.7      | 67.6       | 93          | 85.3       |
+
+
 
 ### MMLU 
 
@@ -84,7 +95,8 @@ CommonsenseQA è un set di dati per la risposta a domande di senso compiuto. Il 
 
 
 
-## Metriche di Comprensione del testo
+## Metriche di Comprensione del testo per i modelli pre-trained
+
 
 ### SQuAD
 
@@ -92,7 +104,19 @@ Lo [Stanford Question Answering Dataset (SQuAD)](https://rajpurkar.github.io/SQu
 
 SQuAD2.0 combina le 100.000 domande di SQuAD1.1 con oltre 50.000 domande senza risposta, scritte in modo contraddittorio dai crowdworker per sembrare simili a quelle con risposta. Per ottenere buoni risultati in SQuAD2.0, i sistemi devono non solo rispondere alle domande quando è possibile, ma anche determinare quando nessuna risposta è supportata dal paragrafo e astenersi dal rispondere.
 
+### QuAC: Question Answering in Context
+[Question Answering in Context](https://quac.ai/) è un dataset su larga scala che consiste in circa 14K dialoghi di risposta alle domande in crowdsourcing con 98K coppie domanda-risposta in totale.
 
 
-*(in progress ... to be continued)*
+Di seguito una tabella riassuntiva.
 
+| Benchmark    | Llama 3 8B | Llama2 7B | Llama2 13B | Llama 3 70B | Llama2 70B |
+|--------------|------------|-----------|------------|-------------|------------|
+| SQuAD (1-shot)    | 76.4       | 72.2      | 72.1       | 85.6        | 82.6       |
+| QuAC (1-shot, F1) | 44.4       | 39.6      | 44.9       | 51.1        | 49.4       |
+| BoolQ (0-shot)    | 75.7       | 65.5      | 66.9       | 79          | 73.1       |
+| DROP (3-shot, F1) | 58.4       | 37.9      | 49.8       | 79.7        | 70.2       |
+
+
+
+(...to be finished)
