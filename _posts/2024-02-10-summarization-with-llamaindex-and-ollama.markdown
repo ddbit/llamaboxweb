@@ -51,7 +51,7 @@ response =  summarizer.get_response("what is all about?", [text])
 print(response)
 ```
 
-## <i class="fa-brands fa-github"></i> Full code 
+
 
 
 
