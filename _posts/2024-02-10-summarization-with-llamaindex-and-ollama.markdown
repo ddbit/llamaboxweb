@@ -2,6 +2,7 @@
 layout: post
 title:  "Summarization with Llamaindex and a Local Model"
 date:   2024-02-10 17:02:16 +0000
+last_modified: 2024-05-06
 ---
 
 The summarizations examples in [Llamaindex website](https://docs.llamaindex.ai/en/stable/getting_started/concepts.html) are always based on the OpenAI connection. In this short article we will show how to setup a local model and pass it to the summarization task.
@@ -53,4 +54,4 @@ print(response)
 ## <i class="fa-brands fa-github"></i> Full code 
 
 
-The full code of the example is also available [here](https://github.com/llamabox/r-bot/blob/main/summarization/fromFile.py).
+
