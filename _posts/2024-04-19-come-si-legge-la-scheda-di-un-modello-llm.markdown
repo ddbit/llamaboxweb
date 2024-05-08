@@ -129,7 +129,9 @@ Di seguito una tabella riassuntiva.
 
 
 ## Il Modello Instruct
-Un modello "instruct" viene ulteriormente addestrato o ottimizzato per rispondere specificamente alle istruzioni fornite dall'utente in modo più intuitivo e utile. Questo addestramento supplementare, spesso realizzato attraverso tecniche di apprendimento supervisionato, implica l'utilizzo di esempi annotati dove agli addestratori umani è stato chiesto di rispondere a domande o completare compiti seguendo istruzioni esplicite. Questo tipo di modello è progettato per fornire risposteallineate con le specifiche intenzioni dell'utente.
+Ricordiamo che Llama3 arriva in due "gusti" diversi: pre-trained e instruct.
+
+Un modello **instruct** viene ulteriormente addestrato o ottimizzato per rispondere specificamente alle istruzioni fornite dall'utente in modo più intuitivo e utile. Questo addestramento supplementare, spesso realizzato attraverso tecniche di apprendimento supervisionato, implica l'utilizzo di esempi annotati dove agli addestratori umani è stato chiesto di rispondere a domande o completare compiti seguendo istruzioni esplicite. Questo tipo di modello è progettato per fornire risposteallineate con le specifiche intenzioni dell'utente.
 
 Come per i modelli pre-trained, anche quelli instruct hanno una serie di metriche di benchmark con cui vengono valutati
 
