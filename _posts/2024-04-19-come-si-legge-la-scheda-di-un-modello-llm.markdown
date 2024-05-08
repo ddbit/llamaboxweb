@@ -5,11 +5,18 @@ date:   2024-04-19
 slug: scheda-llm
 draft: true
 permalink: /come-si-legge-scheda-tecnica-llm
+image: /images/fallout-spec-sheet-read.webp
 ---
 
 Meta ha rilasciato due versioni di Llama 3: una da 8 miliardi di parametri e una da 70 miliardi di parametri
 Llama 3 è stato preaddestrato su 15 trilioni di token di dati, un set di dati 7 volte più grande rispetto a quello utilizzato per Llama 2. Il set di dati di addestramento include anche 4 volte più codice rispetto a Llama 2.
-Ma come si legge esattamente una scheda di specifiche di un LLM?
+
+**Ma come si legge esattamente una scheda di specifiche di un LLM?**
+
+![fallout style woman reading tech doc](/images/fallout-spec-sheet-read.webp)
+
+
+La scheda è visibile nel [sito hugginface](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
 
 ## Cominciamo dalla licenza
 E' possibile usare Llama3 per applicazioni commerciali, ma ci sono condizioni specifiche da rispettare. Se il numero di utenti mensili attivi dei prodotti o servizi che utilizzano Llama3 **supera i 700 milioni nel mese precedente**, è necessario richiedere una licenza specifica da Meta. Questa licenza potrebbe essere concessa a discrezione di Meta. Inoltre, tutte le applicazioni commerciali devono aderire alle condizioni generali dell'accordo di licenza, incluse le norme di utilizzo e le leggi applicabili.
@@ -33,9 +40,11 @@ Questo ci dice che tipo di modello stiamo usando.
 Mentre qui ci informano sul fatto che l'addestramento è avvenuto in modo supervisionato e che utilizza un sistema di ri-addestramento continuo chiamato **reinforcement learning** che si nutre del feedback degli utenti.
 
 
-|  | Training Data | Params | Context length | GQA | Token count | Knowledge cutoff |
-| Llama 3 | A new mix of publicly available online data. | 8B | 8k | Yes | 15T+ | March, 2023 |
-| 70B | 8k | Yes | December, 2023|
+| Model       | Training Data                    | Params | Context length | GQA | Token count | Knowledge cutoff | 
+|-------------|----------------------------------|--------|----------------|-----|-------------|------------------| 
+| Llama 3 8B  | publicly available online data.  | 8B     | 8k             | Yes | 15T+        | March, 2023      | 
+| Llama 3 70B | publicly available online data.  | 70B    | 8k             | Yes | 15T+        | December, 2023   | 
+
 
 La tabella ci da poi alcune informazioni quantitative molto importanti:
 
@@ -119,4 +128,21 @@ Di seguito una tabella riassuntiva.
 
 
 
-(...to be finished)
+## Il Modello Instruct
+Un modello "instruct" viene ulteriormente addestrato o ottimizzato per rispondere specificamente alle istruzioni fornite dall'utente in modo più intuitivo e utile. Questo addestramento supplementare, spesso realizzato attraverso tecniche di apprendimento supervisionato, implica l'utilizzo di esempi annotati dove agli addestratori umani è stato chiesto di rispondere a domande o completare compiti seguendo istruzioni esplicite. Questo tipo di modello è progettato per fornire risposteallineate con le specifiche intenzioni dell'utente.
+
+Come per i modelli pre-trained, anche quelli instruct hanno una serie di metriche di benchmark con cui vengono valutati
+
+
+| Benchmark         | Llama 3 70B | Llama 2 70B |
+|-------------------|-------------|-------------|
+| MMLU (5-shot)     | 82          | 52.9        |
+| GPQA (0-shot)     | 39.5        | 21          |
+| HumanEval (0-shot)| 81.7        | 25.6        |
+| GSM-8K (8-shot, CoT) | 93      | 57.5        |
+| MATH (4-shot, CoT)   | 50.4     | 11.6        |
+
+
+Ad esempio, la metrica [MATH (4-shot, CoT)](https://github.com/hendrycks/math/) valuta le performance dei modelli di intelligenza artificiale nei problemi di matematica. "4-shot" indica che il modello vede quattro esempi del problema prima di affrontare nuovi quesiti, mentre "CoT" (Chain of Thought) si riferisce alla tecnica di mostrare il ragionamento intermedio del modello nel processo di risoluzione, utile per comprendere e migliorare il suo approccio ai problemi.
+
+Un'altro tipo di benchmark matematico è la metrica [GSM-8K (8-shot, CoT)](https://klu.ai/glossary/GSM8K-eval) valuta le abilità di risoluzione matematica di modelli AI. "GSM-8K" indica il set di problemi, "8-shot" che il modello vede otto esempi prima di nuovi quesiti, e "CoT" (Chain of Thought) che deve mostrare il ragionamento passo dopo passo verso la soluzione.
