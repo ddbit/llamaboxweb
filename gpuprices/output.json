@@ -1,0 +1,62 @@
+[
+    {
+        "pricePerGB": "€25",
+        "price": "€500",
+        "gpuModel": "NVIDIA RTX 3080",
+        "vramCapacity": "10 GB",
+        "warranty": "2 years",
+        "clockSpeedBoost": "1800 MHz",
+        "technology": "GDDR6X",
+        "condition": "New",
+        "formFactor": "PCIe 4.0",
+        "flops": "29.8",
+        "nvlink": false,
+        "powerConsumption": "320 W",
+        "affiliateLink": "https://example.com/nvidia-rtx-3080"
+    },
+    {
+        "pricePerGB": "€30",
+        "price": "€450",
+        "gpuModel": "AMD RX 6800 XT",
+        "vramCapacity": "16 GB",
+        "warranty": "3 years",
+        "clockSpeedBoost": "2100 MHz",
+        "technology": "GDDR6",
+        "condition": "New",
+        "formFactor": "PCIe 4.0",
+        "flops": "20.74",
+        "nvlink": false,
+        "powerConsumption": "300 W",
+        "affiliateLink": "https://example.com/amd-rx-6800-xt"
+    },
+    {
+        "pricePerGB": "€20",
+        "price": "€400",
+        "gpuModel": "NVIDIA RTX 2060",
+        "vramCapacity": "8 GB",
+        "warranty": "1 year",
+        "clockSpeedBoost": "1750 MHz",
+        "technology": "GDDR6",
+        "condition": "Used",
+        "formFactor": "PCIe 3.0",
+        "flops": "6.5",
+        "nvlink": false,
+        "powerConsumption": "160 W",
+        "affiliateLink": "https://example.com/nvidia-rtx-2060"
+    },
+    {
+        "pricePerGB": "€35",
+        "price": "€700",
+        "gpuModel": "NVIDIA RTX 3090",
+        "vramCapacity": "24 GB",
+        "warranty": "3 years",
+        "clockSpeedBoost": "1700 MHz",
+        "technology": "GDDR6X",
+        "condition": "New",
+        "formFactor": "PCIe 4.0",
+        "flops": "35.6",
+        "nvlink": true,
+        "powerConsumption": "350 W",
+        "affiliateLink": "https://example.com/nvidia-rtx-3090"
+    }
+]
