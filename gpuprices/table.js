@@ -1,5 +1,5 @@
 const data = [
-    ["GPU ↑↓", "Price ↑↓", "VRAM ↑↓", "Provider ↑↓", "Link ↑↓"],
+    ["GPU ↑↓", "Price ($/h) ↑↓", "VRAM ↑↓", "Provider ↑↓", "Link ↑↓"],
     ["H100", "3.24", "80 GB", "Ori.co", "https://www.ori.co"],
     ["A100", "2.74", "80 GB", "Ori.co", "https://www.ori.co"],
     ["L40S", "1.96", "48 GB", "Ori.co", "https://www.ori.co"],
