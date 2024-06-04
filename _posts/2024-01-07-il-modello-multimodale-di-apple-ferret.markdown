@@ -5,7 +5,7 @@ date:   2023-12-28 17:02:16 +0000
 excerpt: "FERRET è un innovativo Modello di Linguaggio Multimodale (MLLM) che eccelle nel comprendere e localizzare riferimenti spaziali nelle immagini"
 ---
 
-![preview image](/images/ferret.png)
+![preview image](/images/posts/ferret.png)
 
 
 ## Cos'è FERRET?
@@ -24,7 +24,7 @@ L'affermazione principale degli autori del documento su FERRET è la sua prestaz
 
 Le applicazioni sono molteplici, si pensi alle immagini provenienti da veicoli a guida autonoma o da telecamere di sorveglianza. Ma in realtà anche settori come l'ecommerce e la pubblicità possono trarne grande beneficio.
 
-![Analisi di una foto di una motocicletta](/images/ferret-bike.png)
+![Analisi di una foto di una motocicletta](/images/posts/ferret-bike.png)
 
 ### Rivoluzionare l'E-Commerce
 

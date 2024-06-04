@@ -5,7 +5,7 @@ date:   2023-12-28 17:02:16 +0000
 excerpt: Ci siamo posti l'obiettivo di capire e sperimentare qualche alternativa che ci permettesse di far funzionare la nostra AI senza dover necessariamente basarci sull'infrastruttura di OpenAI
 ---
 
-![preview image](/images/diario-lab-1.png)
+![preview image](/images/posts/diario-lab-1.png)
 
 
 
@@ -49,7 +49,7 @@ Una risposta semplice e concisa la troviamo nella [documentazione di Llamaindex]
 
 >In RAG, your data is loaded and prepared for queries or “indexed”. User queries act on the index, which filters your data down to the most relevant context. This context and your query then go to the LLM along with a prompt, and the LLM provides a response.
 
-![basic rag diagram](/images/basic-rag.png)
+![basic rag diagram](/images/posts/basic-rag.png)
 
 Quindi riformulato a parole mie si tratta della preventiva costruzione di un database a partire dai dati e contenuti non-strutturati della knowledge base di partenza (gli scritti di Massimo). Tale database viene interrogato ad ogni messaggio dell'utente e i risultati di tale query diventano parte del prompt di "contesto" che sarà inviato al modello LLM.
 
@@ -61,7 +61,7 @@ R.Massimo è un bot basato su una base di contenuti e scritti di Massimo Chiriat
 
 Se vi state chiedendo perché R.Massimo, ecco questo fa il verso a R.Daneel e se non lo conoscete dovreste cercare nella bibliografia di Asimov che cosa significa. L'idea di aggiungere la R. ad un proprio gemello virtuale è stata riproposta nella realtà da David Orban, altro famoso futurologo, in un suo recente [post](https://www.linkedin.com/feed/update/urn:li:activity:7146081835490463744/)
 
-![cover abissi d'acciaio](/images/abissi-acciaio.jpg)
+![cover abissi d'acciaio](/images/posts/abissi-acciaio.jpg)
 
 
 
@@ -81,7 +81,7 @@ HTMX è praticamente la cosa più leggera e semplice da usare per fare velocemen
 
 Certo non è proprio una user interface accativante, ma faceva il suo.
 
-![image](/images/rmassimo-poc1.png)
+![image](/images/posts/rmassimo-poc1.png)
 
 ## Prossimi passi
 

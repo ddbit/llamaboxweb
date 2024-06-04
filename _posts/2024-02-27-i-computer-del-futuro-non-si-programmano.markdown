@@ -13,7 +13,7 @@ Naturalmente Huang tira l'acqua al suo mulino, e probabilmente non sarà esattam
 
 La logica cablata  di tanti anni fa era quella dei flipper e dei jukebox, quando in mezzo agli organi meccanici si alzavano i primi vagiti dell'elettronica. La logica era abbastanza semplice: premi un tasto si accende una lampada, arriva un suono si muove un braccio etc. I circuiti più complessi potevano realizzare funzionalità più interessanti, pensiamo agli ascensori, ai televisori, agli impianti stereo etc. Cablata perché a seconda della logica che volevamo realizzare dovevamo proprio attaccare i fili in modo diverso.
 
-![flipper](/images/pinball.jpg)
+![flipper](/images/posts/pinball.jpg)
 
 Poi però è arrivata l'elettronica digitale e i circuiti programmabili, in pratica invece di rimontare l'elettronica in modo diverso a secondo dell'applicazione siamo passati ad un solo tipo di circuito, il processore, capace di eseguire un programma. Il programma cambia, il processore è sempre lo stesso.
 
@@ -22,7 +22,7 @@ Poi però è arrivata l'elettronica digitale e i circuiti programmabili, in prat
 
 Questa rivoluzione ha portato a tutto quello che conosciamo oggi, dal circuito di controllo degli ascensori, al laptop, al cellulare, ai mega server di amazon etc. Naturalmente abbiamo avuto molte generazioni di processori, ma di fatto qualche dozzina di prodotti sono il cuore di miliardi di installazioni.
 
-![cpu](/images/27719-cpu.jpg)
+![cpu](/images/posts/27719-cpu.jpg)
 
 Questa è stata una vera è propria rivoluzione, che di fatto ha reso l'elettronica irrilevante e ha incoronato l'informatica come tecnica assoluta per il dominio del mondo.La rete, poi, ha reso tutto questo liquido e globale e as a service. Eppure anche quest'era forse sta per giungere ad una fine.
 
@@ -30,7 +30,7 @@ Questa è stata una vera è propria rivoluzione, che di fatto ha reso l'elettron
 
 e forse siamo all'alba di una nuova rivoluzione, così come la CPU è divenuto il componente definitivo nel mondo dell'elettronica, forse dobbiamo ora salutare la nascita del componente definitivo nel mondo dell'informazione. Il classificatore/decisore/regressore, insomma un modello matematico/statistico capace di ingurgitare dati e fornire predizioni. Un componente in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è sempre lo stesso. Macchine che apprendono.
 
-![machine_learning](/images/e573d-machine_learning.jpg)
+![machine_learning](/images/posts/e573d-machine_learning.jpg)
 
 Apprendono a riconoscere un tumore da una tac, o lo stile di Van Gogh da un' immagine quello che conta è che queste macchine forse non pensano e non sono senzienti, ma riconoscono (riconoscenti però suona male)
 
@@ -49,7 +49,7 @@ Infatti questo succede in altri settori, non necessariamente legati alla AI. il 
 
 ## I linguaggi di programmazione diventano irrilevanti?
 
-![java vs](/images/java_vs.gif)
+![java vs](/images/posts/java_vs.gif)
 
 Non vuol dire che non serviranno più, e quindi ci saranno sempre job opportunities per developer e architect. Ma se ritorniamo allo scenario dove invece di tanti software diversi programmati per fare cose diverse, abbiamo pochi software addestrabili a risolvere infiniti problemi diversi, non abbiamo più un programmatore che si scervella tra cicli for, chiamate a funzioni, e infiniti cicli di trial and error per vedere il suo programma eseguire tutte le linee di codice.  Abbiamo invece un software scatola nera che ingurgita dati e sputa sentenze, una rete neurale capace di classificare ad esempio ... e a questo punto non è tanto una questione tra Java, Python, C++, etc. le guerre di religione nei forum nerd saranno su Boltzmann machine Vs Convolutional network.
 
@@ -66,7 +66,7 @@ Assistiamo già alla tendenza già vista in altri settori, come appunto quello d
 [Questo video](https://www.youtube.com/watch?v=MR9v_YeTIPA) mostra in modo impressionante come questo processo di innovazione sia ormai in corso da anni e come anche il mercato azionario ne abbia preso atto.
 
 <a href="https://www.youtube.com/watch?v=MR9v_YeTIPA" target="_blank">
-![video nvidia vs intel](/images/nvidia-intel-market.png)
+![video nvidia vs intel](/images/posts/nvidia-intel-market.png)
 </a>
 
 Ma non è detto che le GPU siano la soluzione definitiva, infatti Google da diversi anni ha messo in cantiere degli Asics (ovvero elettronica specializzata ad un solo scopo, un po' come il flipper descritto all'inizio) chiamate Tensor Processing Units (TPU) per abbattere il costo in Joule per istruzione. Le Google TPU sono circuiti integrati per ad-hoc sviluppati appositamente per l'apprendimento automatico. Rispetto ai processori, sono progettati in modo esplicito per grossi volumi di dati, usano una minore precisione (8 bit) e non dispongono di hardware per rasterizzazione / texture mapping (non gli serve).

@@ -11,7 +11,7 @@ Questo grafico estratto da [1] ci da un'idea del numero di operazioni necessarie
 
 [1] Brown, Tom, et al. "Language models are few-shot learners." Advances in neural information processing systems 33 (2020): 1877-1901.
 
-![image](/images/training-cost.png)
+![image](/images/posts/training-cost.png)
 
 
 ## Pre-trainng di un modello LLM

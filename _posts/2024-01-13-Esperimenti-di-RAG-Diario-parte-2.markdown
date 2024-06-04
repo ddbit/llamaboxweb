@@ -6,7 +6,7 @@ excerpt: "Seconda parte del nostro percorso di esplorazione con i modelli di
 linguaggio LLM e il RAG con una nuova versione di R-Massimo, questa volta senza OpenAI."
 ---
 
-![preview image](/images/diario-lab-1.png)
+![preview image](/images/posts/diario-lab-1.png)
 
 <style>
 .info {
@@ -51,16 +51,16 @@ La rimozione di OpenAI ci ha permesso di far girare il modello localmente, per o
 
 Questa è l'architettura senza openAI
 
-![basic rag arch](/images/basic-rag-llamabox.png)
+![basic rag arch](/images/posts/basic-rag-llamabox.png)
 
 
 Il prototipo è testabile [al nuovo indirizzo](http://ai01.tech-isg.it/static/index.html#) (il vecchio sarà rediretto qui)
 
-![screen shot of R.Massimo](/images/rmassimov2.png)
+![screen shot of R.Massimo](/images/posts/rmassimov2.png)
 
 E naturalmente con una certa soddisfazione da nerd ammiriamo i nostri processi impegnare le GPU Nvidia, a riprova che siamo staccati dal cordone ombelicale di Open AI :)
 
-![console di nvidia-smi](/images/nvidia-smi.png)
+![console di nvidia-smi](/images/posts/nvidia-smi.png)
 
 ## Prossimi step
 

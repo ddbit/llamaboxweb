@@ -6,7 +6,7 @@ slug: summary-eval
 permalink: /evaluation-of-summarization-task-llm-the-good-the-bad-the-ugly
 excerpt: In this article we discuss the various metrics for evaluating a summarization task. In particular, we will fine-tune the tools for measuring the results of the summarization of Mistral 7b, the article will overview the various metrics for a single summarization example from the dataset labeled CNN/News.
 ---
-![good bad ugly](/images/good-bad-ugly.jpg)
+![good bad ugly](/images/posts/good-bad-ugly.jpg)
 
 ## Method followed
 The approach we will follow in this paper is as follows: we take a full text and generate a summary of it using the model we want to test (Mistral7b in this case).

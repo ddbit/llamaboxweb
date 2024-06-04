@@ -66,7 +66,7 @@ Man mano che il modello elabora ogni parola (ogni posizione nella sequenza di in
 
 Se sei familiare con le RNN (Reti Neurali Ricorrenti), pensa a come il mantenimento di uno stato nascosto permette a una RNN di integrare la sua rappresentazione delle parole/vettori precedenti con quella attualmente in elaborazione. L'autotensione è il metodo utilizzato dal Trasformatore per incorporare la "comprensione" di altre parole rilevanti in quella che stiamo elaborando.
 
-![self attention in un transformer](/images/self-attention.png)
+![self attention in un transformer](/images/posts/self-attention.png)
 
 ## Efficienza del Transformer:
 

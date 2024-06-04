@@ -22,7 +22,7 @@ Come piccola nota patriottica va citato il fatto che questo nuovo modello deriva
 
 **Mixtral of Experts** introduce Mixtral 8x7B, un modello di lingua Sparse Mixture of Experts (SMoE). Questo modello, estensione del Mistral 7B, è caratterizzato da strati composti da 8 blocchi feedforward (esperti). Utilizza una rete di instradamento per una lavorazione dinamica, consentendo a ciascun token di accedere a 47B parametri con solo 13B parametri attivi durante l'inferenza. Mixtral eccelle in vari benchmark, superando modelli come Llama 2 70B e GPT-3.5 in matematica, generazione di codice e compiti multilingue. Il modello include anche una versione ottimizzata per l'adempimento di istruzioni, Mixtral 8x7B – Instruct, che offre prestazioni migliorate e pregiudizi ridotti. È disponibile sotto la licenza Apache 2.0.
 
-![Sparse Mixture of Experts Blocks](/images/mixtral.png)
+![Sparse Mixture of Experts Blocks](/images/posts/mixtral.png)
 
 
 ## In Che Modo Mixtral è Diverso da GPT?

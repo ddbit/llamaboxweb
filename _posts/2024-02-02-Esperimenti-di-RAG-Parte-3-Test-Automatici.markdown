@@ -25,7 +25,7 @@ Ecco alcune metriche
 Questi benchmark sono importanti perché offrono un modo per misurare oggettivamente le capacità di un modello di IA in vari domini di comprensione e produzione del linguaggio, oltre a specifiche competenze come il coding. La performance su questi test può dare un'indicazione di quanto sia avanzato un modello e di quali siano le sue potenziali applicazioni pratiche.
 
 
-![chart](/images/mmlu.png)
+![chart](/images/posts/mmlu.png)
 *Multi-task Language Understanding on MMLU (source paperswithcode.com)*
 
 ## Task di Summarization e Metriche

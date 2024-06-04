@@ -5,7 +5,7 @@ date:   2024-04-19
 slug: scheda-llm
 draft: true
 permalink: /come-si-legge-scheda-tecnica-llm
-image: /images/fallout-spec-sheet-read.webp
+image: /images/posts/fallout-spec-sheet-read.webp
 ---
 
 Meta ha rilasciato due versioni di Llama 3: una da 8 miliardi di parametri e una da 70 miliardi di parametri
@@ -13,7 +13,7 @@ Llama 3 è stato preaddestrato su 15 trilioni di token di dati, un set di dati 7
 
 **Ma come si legge esattamente una scheda di specifiche di un LLM?**
 
-![fallout style woman reading tech doc](/images/fallout-spec-sheet-read.webp)
+![fallout style woman reading tech doc](/images/posts/fallout-spec-sheet-read.webp)
 
 
 La scheda è visibile nel [sito hugginface](https://huggingface.co/meta-llama/Meta-Llama-3-8B)

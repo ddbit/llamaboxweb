@@ -5,7 +5,7 @@ date:   2023-12-22 17:02:16 +0000
 ---
 Il documento, ["LLM in a Flash: Efficient Large Language Model Inference with Limited Memory,"](https://arxiv.org/pdf/2312.11514.pdf)  si concentra sulle sfide e sulle soluzioni per l'esecuzione di grandi modelli di linguaggio (LLM) su dispositivi con capacità limitata di DRAM. 
 
-![LLM in a flash paper frontpage](/images/llm-in-a-flash.png)
+![LLM in a flash paper frontpage](/images/posts/llm-in-a-flash.png)
 
 Presenta un approccio per l'esecuzione efficiente di LLM che superano la capacità disponibile di DRAM memorizzando i parametri del modello sulla memoria flash e caricandoli nella DRAM su richiesta. Il documento introduce tecniche come il "windowing" e il "raggruppamento riga-colonna" per ottimizzare il trasferimento dei dati dalla memoria flash, sfruttando la sparsità degli LLM per ridurre il carico di dati e migliorare l'efficienza dell'uso della memoria. I metodi proposti consentono di eseguire modelli fino al doppio delle dimensioni della DRAM disponibile, aumentando significativamente la velocità di inferenza rispetto ai metodi di caricamento tradizionali in configurazioni CPU e GPU. La ricerca offre nuove intuizioni sulle strategie consapevoli dell'hardware e sull'apprendimento automatico, enfatizzando l'importanza di considerare le caratteristiche hardware nello sviluppo di algoritmi ottimizzati per l'inferenza.
 
