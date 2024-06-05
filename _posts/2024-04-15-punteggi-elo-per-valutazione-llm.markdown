@@ -4,6 +4,7 @@ title:  "Punteggi Elo per la valutazione degli LLM"
 date:   2024-04-15
 slug: elo-1
 permalink: /punteggi-elo-per-valutazione-llm
+image: /images/posts/elo/image.webp
 ---
 Il **punteggio Elo** è un metodo matematico per calcolare il livello relativo di abilità dei giocatori in giochi competitivi come scacchi, go, videogiochi e sport come il calcio e il basket. Ideato da Arpad Elo, un professore di fisica e maestro di scacchi di origine ungherese, questo sistema è stato originariamente creato per migliorare il sistema di classificazione degli scacchisti.
 

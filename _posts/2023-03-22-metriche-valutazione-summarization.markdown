@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Valutazione del Task di Summarization per un Modello AI/LLM: il Buono, il Brutto ed il Cattivo"
-date:   2024-03-22 17:02:16 +0000
+date:   2024-03-22
 permalink: /come-valutare-summarization-task-llm
+image: /images/posts/good-bad-ugly.jpg
 ---
 In questo articolo discutiamo le varie metriche per la valutazione di un task di summarization. In particolare metteremo a punto gli strumenti per misurare i risultati della summarization di Mistral 7b, l'articolo farà una panoramica delle varie metriche per un singolo esempio di summarization tratto dal dataset etichettato CNN/News.
 
