@@ -2,6 +2,7 @@
 layout: post
 title:  "Esperimenti con LLM e RAG: LLamaIndex e openAI"
 date:   2023-12-28 17:02:16 +0000
+image: /images/posts/diario-lab-1.png
 excerpt: Ci siamo posti l'obiettivo di capire e sperimentare qualche alternativa che ci permettesse di far funzionare la nostra AI senza dover necessariamente basarci sull'infrastruttura di OpenAI
 ---
 

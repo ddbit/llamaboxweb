@@ -2,6 +2,7 @@
 layout: post
 title:  "Mixtral: Un Nuovo Modello di Linguaggio Basato sul Mix di Blocchi Feed-Forward"
 date:   2024-01-09 17:02:16 +0000
+image: /images/posts/mixtral.png
 excerpt: "Come modello Sparse Mixture of Experts (SMoE), Mixtral impiega un meccanismo di instradamento dinamico, attivando diverse parti del modello in base all'input e riuscendo così a ottenere ottime prestazioni con un minor impegno di risorse"
 ---
 

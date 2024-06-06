@@ -2,6 +2,7 @@
 layout: post
 title:  "BitNet b1.58: una variante di Large Language Models (LLM) a 1 bit"
 date:   2024-03-03 17:02:16 +0000
+image: /images/posts/bitnet.png
 ---
 Un nuovo articolo introduce BitNet b1.58, una variante di Large Language Models (LLM) a 1 bit, dove ogni parametro assume valori ternari {-1, 0, 1}, quindi non esattamente 1-bit ma 1.58bit equivalenti per la precisione, raggiungendo prestazioni pari ai modelli full-precision (FP16 o BF16) ma con maggiore efficienza in termini di latenza, memoria, throughput e consumo energetico. Questo modello introduce una nuova legge di scala e apre la strada a un paradigma computazionale innovativo e alla progettazione di hardware specifico ottimizzato per LLM a 1 bit.
 

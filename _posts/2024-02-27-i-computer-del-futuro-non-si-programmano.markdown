@@ -2,6 +2,7 @@
 layout: post
 title:  "I Computer del Futuro non si programmano, si addestrano"
 date:   2024-02-27 17:02:16 +0000
+image: /images/posts/pinball.jpg
 ---
 
 Il CEO di NVidia, Jensen Huang, ha dichiarato recentemente "No Need For Coding" e che i ragazzi di oggi non hanno bisogno di imparare a programmare, perché i progressi della AI permetteranno a tutti di risolvere i problemi usando il linguaggio naturale.

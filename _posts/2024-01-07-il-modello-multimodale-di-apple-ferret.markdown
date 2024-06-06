@@ -2,6 +2,7 @@
 layout: post
 title:  "FERRET: Dalla Apple Un Nuovo Modello di Linguaggio Multimodale Avanzato"
 date:   2023-12-28 17:02:16 +0000
+image: /images/posts/ferret.png
 excerpt: "FERRET è un innovativo Modello di Linguaggio Multimodale (MLLM) che eccelle nel comprendere e localizzare riferimenti spaziali nelle immagini"
 ---
 

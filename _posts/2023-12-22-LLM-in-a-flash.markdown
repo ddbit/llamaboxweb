@@ -2,6 +2,7 @@
 layout: post
 title:  "Nuovo paper Apple: LLM in a Flash. Modelli di linguaggio su dispositivi mobili"
 date:   2023-12-22 17:02:16 +0000
+image: /images/posts/llm-in-a-flash.png
 ---
 Il documento, ["LLM in a Flash: Efficient Large Language Model Inference with Limited Memory,"](https://arxiv.org/pdf/2312.11514.pdf)  si concentra sulle sfide e sulle soluzioni per l'esecuzione di grandi modelli di linguaggio (LLM) su dispositivi con capacità limitata di DRAM. 
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Esperimenti con LLM e RAG: Modello in Locale con Mistral e Ollama"
 date:   2024-01-13 17:02:16 +0000
+image: /images/posts/diario-lab-1.png
 excerpt: "Seconda parte del nostro percorso di esplorazione con i modelli di 
 linguaggio LLM e il RAG con una nuova versione di R-Massimo, questa volta senza OpenAI."
 ---

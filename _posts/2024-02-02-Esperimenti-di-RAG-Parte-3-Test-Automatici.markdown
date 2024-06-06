@@ -3,6 +3,7 @@ layout: post
 title:  "Come valutare un Modello di Linguaggio: Benchmark e Metriche più comuni"
 date:   2024-02-02 17:02:16 +0000
 description: "AI LLM e il RAG, Test e Valutazione della Qualità"
+image: /images/posts/mmlu.png
 ---
 
 > Se non puoi misurarlo non lo puoi migliorare (Lord Kelvin)

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Dalle Reti Neurali Ricorrenti (RNN) ai Transformer: La Svolta"
-date:   2023-11-07 17:02:16 +0000
+date:   2023-11-07 
+image: /images/posts/self-attention.png
 ---
 
 All you need is love ... ma non per l'AI. Piuttosto ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) è il seminal paper del 2017 da cui inizia la svolta. Si definisce una nuova architettura di #naturallanguageprocessing basata sul concetto di "attenzione" che scala meglio delle precedenti soluzioni.
