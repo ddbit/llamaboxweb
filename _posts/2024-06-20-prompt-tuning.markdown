@@ -54,12 +54,14 @@ I termini "fine-tuning", "prompt tuning" e "prompt engineering" sono correlati m
 
 | Caratteristica | Fine-Tuning | Prompt Tuning | Prompt Engineering |
 |----------------|-------------|---------------|---------------------|
-| **Modifica del Modello** | Sì (l'intero modello) | No (solo parametri di prompt) | No |
+| **Modifica del Modello** | Sì (l'intero modello*) | No (solo parametri di prompt) | No |
 | **Addestramento Necessario** | Sì | Sì (ma solo per i prompt) | No |
 | **Efficienza dei Parametri** | Bassa (tutti i parametri) | Alta (pochi parametri) | Molto alta (nessun parametro) |
 | **Risorse Computazionali** | Alte | Moderate | Basse |
 | **Scalabilità** | Minore (ogni compito richiede un modello) | Alta (stesso modello con diversi prompt) | Molto alta (stesso modello, vari prompt) |
 | **Flessibilità** | Bassa | Alta | Molto alta |
+
+(*) Questo non è del tutto corretto, Esiste una categoria di tuning detta [LoRa](https://huggingface.co/docs/peft/task_guides/lora_based_methods) che minimizza il numero di parametri da riaddestrare.
 
 ### Riassumendo
 
