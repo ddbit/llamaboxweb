@@ -38,9 +38,10 @@
     <thead>
         <tr>
             <th onclick="sortTable(0)">GPU</th>
-            <th onclick="sortTable(1)">Hourly Price (USD)</th>
-            <th onclick="sortTable(2)">VRAM (GB)</th>
-            <th onclick="sortTable(3)">Provider</th>
+            <th onclick="sortTable(1)">Maker</th>
+            <th onclick="sortTable(2)">Hourly Price (USD)</th>
+            <th onclick="sortTable(3)">VRAM (GB)</th>
+            <th onclick="sortTable(4)">Provider</th>
             <th>Link</th>
         </tr>
     </thead>
@@ -61,6 +62,7 @@ function buildTable(data) {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${item.GPU}</td>
+            <td>${item.Maker}</td>
             <td>${item["hourly-price"]}</td>
             <td>${item.VRAM}</td>
             <td>${item.provider}</td>
