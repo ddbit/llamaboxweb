@@ -23,25 +23,34 @@
         .desc::after {
             content: " \25BC"; /* Triangolino verso il basso */
         }
+
+        .header {
+            margin: 25px;
+        }
     </style>
     <link rel="stylesheet" href="../landing-assets/css/main.css" />
 </head>
 <body>
+<div class="header">
+    <img src="/images/lama.png" width="80px"></img>
+    <h1>GPU Cloud Prices Comparison</h1>
+    <h2>Compare gpu cloud providers by price and performances</h2>
+    <p><a href="/">Home</a> / <a href="/gpuprices/">Gpu Prices</a></p>
+</div>
 
-<h1>GPU Cloud Prices Comparison</h1>
-<h2>Compare gpu cloud providers by price and performances</h2>
-<p><a href="/">Home</a> / <a href="/gpuprices/">Gpu Prices</a></p>
+
 <br>
 <hr>
 
 <table id="gpuTable">
     <thead>
         <tr>
-            <th onclick="sortTable(0)">GPU</th>
+            <th onclick="sortTable(0)">Cloud</th>
+            
             <th onclick="sortTable(1)">Maker</th>
-            <th onclick="sortTable(2)">Hourly Price (USD)</th>
+            <th onclick="sortTable(2)">GPU</th>
             <th onclick="sortTable(3)">VRAM (GB)</th>
-            <th onclick="sortTable(4)">Provider</th>
+            <th onclick="sortTable(4)">Hourly Price (USD)</th>
             <th>Link</th>
         </tr>
     </thead>
@@ -61,11 +70,11 @@ function buildTable(data) {
     data.forEach(item => {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td>${item.GPU}</td>
-            <td>${item.Maker}</td>
-            <td>${item["hourly-price"]}</td>
-            <td>${item.VRAM}</td>
             <td>${item.provider}</td>
+            <td>${item.Maker}</td>
+            <td>${item.GPU}</td>
+            <td>${item.VRAM}</td>
+            <td>${item["hourly-price"]}</td>
             <td><a href="${item.link}" target="_blank">Link</a></td>
         `;
         tableBody.appendChild(row);
