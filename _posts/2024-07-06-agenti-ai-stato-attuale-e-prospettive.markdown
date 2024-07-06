@@ -43,7 +43,6 @@ La discussione sugli agenti AI rivela un panorama di potenzialità e insidie. Se
 
 ## Riferimenti
 
-Ecco i link per i riferimenti che mi hai richiesto:
 
 1. **Russell, S. J., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.**
    - Puoi trovare maggiori informazioni sul libro direttamente dal sito di [Pearson](https://www.pearson.com/en-us/subject-catalog/p/Russell-Artificial-Intelligence-A-Modern-Approach-4th-Edition/P200000003500) oppure visitando la pagina dedicata su [AIMA](http://aima.cs.berkeley.edu/).
