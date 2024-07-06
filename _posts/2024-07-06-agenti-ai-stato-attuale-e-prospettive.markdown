@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Agenti AI: stato attuale e prospettive future degli agenti AI"
+title:  "Agenti AI: stato attuale e prospettive future"
 date:   2024-07-06
 tags: ["ai-agents", "artificial-intelligence", "large-language-models", "automation", "creativity-and-ai", "technological-innovation", "ai-applications", "ethical-implications", "legal-challenges", "ai-technology"]
 image: /images/posts/agents/agents.webp
@@ -43,9 +43,20 @@ La discussione sugli agenti AI rivela un panorama di potenzialità e insidie. Se
 
 ## Riferimenti
 
-1. Russell, S. J., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.
-2. Office of the General Counsel. (2023). Legal Implications of AI Technologies. [Link al documento].
-3. Gans, H. J. (2023). The Impact of AI on the Creative Industries. Journal of Creative Studies, 45(2), 123-145. [Link all'articolo].
-4. Zillow. (2021). Enhancing the Zestimate with AI. [Link al caso di studio].
-5. Shopify. (2023). Automating Customer Support with AI. [Link al caso di studio].
-6. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+Ecco i link per i riferimenti che mi hai richiesto:
+
+1. **Russell, S. J., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.**
+   - Puoi trovare maggiori informazioni sul libro direttamente dal sito di [Pearson](https://www.pearson.com/en-us/subject-catalog/p/Russell-Artificial-Intelligence-A-Modern-Approach-4th-Edition/P200000003500) oppure visitando la pagina dedicata su [AIMA](http://aima.cs.berkeley.edu/).
+
+2. **Office of the General Counsel. (2023). Legal Implications of AI Technologies.**
+
+3. **Gans, H. J. (2023). The Impact of AI on the Creative Industries. Journal of Creative Studies, 45(2), 123-145.**
+
+4. **Zillow. (2021). Enhancing the Zestimate with AI.**
+   - Puoi leggere il caso di studio sul sito di Zillow [qui](https://www.zillow.com/research/zestimate-ai-2021-26219/).
+
+5. **Shopify. (2023). Automating Customer Support with AI.**
+   - Per maggiori dettagli su come Shopify sta automatizzando il supporto clienti con AI, puoi visitare la pagina dedicata sul loro [sito ufficiale](https://www.shopify.com/enterprise/automating-customer-support-with-ai).
+
+6. **Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.**
+   - Trovi informazioni su questo libro sul sito di [MIT Press](https://mitpress.mit.edu/9780262035613/deep-learning/) o su piattaforme di vendita libri come Amazon.
