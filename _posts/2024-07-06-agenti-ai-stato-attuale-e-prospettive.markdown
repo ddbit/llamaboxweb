@@ -18,7 +18,7 @@ Inizialmente, c'era grande entusiasmo per i flussi di lavoro basati su agenti co
 Tuttavia, la realtà non ha soddisfatto le aspettative. Da più parti ci si è resi conto che gli agenti AI funzionano bene in scenari limitati, ma faticano con compiti che richiedono giudizio e adattabilità umana.
 
 ## Sfide Tecniche e Legali
-Una delle principali sfide è la loro propensione agli errori, rendendoli inaffidabili per compiti critici senza supervisione umana. Le implicazioni legali di questi errori sono preoccupanti: le aziende potrebbero affrontare responsabilità legali se un assistente AI commette un errore causando danni. 
+Una delle principali sfide è la loro propensione agli errori, rendendoli inaffidabili per compiti critici senza supervisione umana. Le implicazioni legali di questi errori sono preoccupanti: le aziende potrebbero affrontare responsabilità legali se un assistente AI commettesse un errore causando dei danni. 
 
 ## "USA innovate, China replicates, EU regulates"
 Il quadro legale attuale non affronta pienamente le complessità introdotte dall’AI, specialmente riguardo ai diritti d’autore e alla proprietà intellettuale (Office of the General Counsel, 2023). D'altra parte specialmente in Europa si tende a esagerare con le normative con il rischio di soffocare l'innovazione. 
@@ -37,7 +37,7 @@ Il futuro degli agenti AI sembra promettente, ma servono progressi significativi
 L’impatto sociale degli agenti AI è oggetto di dibattito. Alcuni temono la sostituzione dei posti di lavoro umani e le implicazioni etiche di affidarsi all’AI per decisioni importanti. Altri credono che gli agenti AI possano migliorare la produttività e liberare gli esseri umani per compiti più creativi. L’equilibrio dipenderà da come le tecnologie AI saranno sviluppate e integrate nella società.
 
 ## Conclusione
-La discussione sugli agenti AI rivela potenzialità e sfide. Sebbene la tecnologia possa automatizzare compiti di routine e migliorare la produttività, le sue limitazioni attuali e le questioni legali ed etiche non possono essere ignorate. Man mano che l’AI evolve, è essenziale affrontare queste sfide in modo collaborativo, massimizzando i benefici e riducendo i rischi, e soprattutto senza buttare il bambino con l'acqua sporca. 
+La discussione sugli agenti AI rivela potenzialità e sfide. Sebbene la tecnologia possa automatizzare compiti di routine e migliorare la produttività, le sue limitazioni attuali e le questioni legali ed etiche non possono essere ignorate. Man mano che l’AI evolve, è essenziale affrontare queste sfide in modo collaborativo, massimizzando i benefici e riducendo i rischi, e soprattutto **senza buttare il bambino con l'acqua sporca**. 
 
 Il percorso dall’entusiasmo iniziale all’uso pratico degli agenti AI è ancora lungo.
 
