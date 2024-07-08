@@ -74,7 +74,7 @@ Al termine del periodo di conservazione i Dati Personali saranno cancellati e pe
 
 Questo Sito web utilizza i cookie. I cookie sono piccoli file di testo che possono essere utilizzati dai siti web per rendere più efficiente l’esperienza per l’utente e per personalizzare contenuti e gli annunci, fornire le funzioni dei social network e analizzare il traffico.
 
-<a href="#cookie">Cookie Policy</a>
+<a href="#cookie-policy">Cookie Policy</a>
 
 ## Luogo del Trattamento e trasferimento dei Dati all’estero
 
@@ -108,7 +108,7 @@ I servizi di statistica permettono al Titolare del Trattamento esclusivamente di
 Il Titolare del Trattamento si riserva il diritto di apportare modifiche alla presente Privacy Policy in qualunque momento dandone pubblicità agli Utenti su questa pagina. Si prega dunque di consultare spesso questa pagina, prendendo come riferimento la data di ultima modifica indicata in fondo. Nel caso di mancata accettazione delle modifiche apportate alla presente Privacy Policy, l’Utente è tenuto a cessare l’utilizzo di questo Sito web e può richiedere al Titolare del Trattamento di rimuovere i propri Dati Personali. Salvo quanto diversamente specificato, la precedente Privacy Policy continuerà ad applicarsi ai Dati Personali sino a quel momento raccolti. Il Titolare non è responsabile per l’aggiornamento di tutti i link visualizzabili nella presente Privacy Policy, pertanto ogni qualvolta un link non sia funzionante e/o aggiornato, gli Utenti riconoscono ed accettano che dovranno sempre far riferimento al documento e/o sezione dei siti internet richiamati da tale link.
 
 
-<h2 id="cookie">Cookie Policy</h2>
+<h2 id="cookie-policy">Cookie Policy</h2>
 
 
 **Ultimo aggiornamento:** 08/07/2024
