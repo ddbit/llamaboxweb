@@ -28,6 +28,7 @@
             <th onclick="sortTable(2)">GPU</th>
             <th onclick="sortTable(3)">VRAM (GB)</th>
             <th onclick="sortTable(4)">Hourly Price (USD)</th>
+            <th onclick="sortTable(5)">PFLOP/S DAY Cost</th>
             <th>Link</th>
         </tr>
     </thead>
@@ -52,6 +53,7 @@ function buildTable(data) {
             <td>${item.GPU}</td>
             <td>${item.VRAM} GB</td>
             <td>$ ${item["hourly-price"]}</td>
+            <td>$ ${parseInt(item["PFLOPSDAY_COST"])}</td>
             <td><a href="${item.link}" target="_blank">Link</a></td>
         `;
         tableBody.appendChild(row);
