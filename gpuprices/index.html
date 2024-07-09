@@ -46,6 +46,8 @@ function buildTable(data) {
     const tableBody = document.querySelector('#gpuTable tbody');
     tableBody.innerHTML = '';
     data.forEach(item => {
+        pflopsdaycost = parseInt(item["PFLOPSDAY_COST"]);
+        pflopsdaycost = pflopsdaycost == 0 ? "-" : pflopsdaycost
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${item.provider}</td>
@@ -53,7 +55,7 @@ function buildTable(data) {
             <td>${item.GPU}</td>
             <td>${item.VRAM} GB</td>
             <td>$ ${item["hourly-price"]}</td>
-            <td>$ ${parseInt(item["PFLOPSDAY_COST"])}</td>
+            <td>$ ${pflopsdaycost}</td>
             <td><a href="${item.link}" target="_blank">Link</a></td>
         `;
         tableBody.appendChild(row);
