@@ -4,38 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPU Prices</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            cursor: pointer;
-        }
-        .asc::after {
-            content: " \25B2"; /* Triangolino verso l'alto */
-        }
-        .desc::after {
-            content: " \25BC"; /* Triangolino verso il basso */
-        }
-
-        .header {
-            margin: 25px;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="../landing-assets/css/main.css" />
 </head>
 <body>
 <div class="header">
     <img src="/images/lama.png" width="80px"></img>
-    <h1>GPU Cloud Prices Comparison</h1>
     <h2>Compare gpu cloud providers by price and performances</h2>
     <p><a href="/">Home</a> / <a href="/gpuprices/">Gpu Prices</a></p>
+    <p>Check our <a href="gpu-intro-it">Introduction to GPU performances</a><i> in italian</i></p>
 </div>
 
 
@@ -73,8 +50,8 @@ function buildTable(data) {
             <td>${item.provider}</td>
             <td>${item.Maker}</td>
             <td>${item.GPU}</td>
-            <td>${item.VRAM}</td>
-            <td>${item["hourly-price"]}</td>
+            <td>${item.VRAM} GB</td>
+            <td>$ ${item["hourly-price"]}</td>
             <td><a href="${item.link}" target="_blank">Link</a></td>
         `;
         tableBody.appendChild(row);
