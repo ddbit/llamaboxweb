@@ -52,7 +52,7 @@ Questo grafico evidenzia chiaramente l'impatto delle emissioni di carbonio assoc
 
 ## Fine Tuning Efficiente. Quanta CO2 produce
 
-Le tecniche di [Fine Tuning come LoRa](/2024/06/20/prompt-tuning.html) risultano essere efficienti ovviamente anche in termini di CO2 prodotta. Ad esempio, i dati specifici emersi [da questo articolo](https://towardsdatascience.com/carbon-footprint-of-llm-fine-tuning-a-case-study-7703afc716a9) riguardo all'impronta di carbonio del fine-tuning utilizzando la tecnica LoRA (Low-Rank Adaptation):
+Le tecniche di [Fine Tuning come LoRa](/2024/06/20/prompt-tuning.html) invece di ricalcolare tutti i parametri di un modello riescono ad isolare un sottoinsieme molto piccolo di questi con grandi vantaggi in termini di tempo e risorse di calcolo. Risultano essere virtuosi ovviamente anche in termini di CO2 prodotta. Ad esempio, i dati specifici emersi [da questo articolo](https://towardsdatascience.com/carbon-footprint-of-llm-fine-tuning-a-case-study-7703afc716a9) riguardo all'impronta di carbonio del fine-tuning utilizzando la tecnica LoRA (Low-Rank Adaptation):
 
 - **Modello di linguaggio:** LLM con 7 miliardi di parametri
 - **Tecnica di fine-tuning:** LoRA
@@ -64,7 +64,7 @@ Le tecniche di [Fine Tuning come LoRa](/2024/06/20/prompt-tuning.html) risultano
 Questi numeri mostrano che il fine-tuning di un modello di linguaggio di grandi dimensioni con la tecnica LoRA è estremamente efficiente in termini di tempo, risorse computazionali e impronta di carbonio. L'emissione di 57 grammi di CO2e è molto bassa, il che dimostra l'efficacia della tecnica LoRA nel ridurre l'impatto ambientale del fine-tuning dei modelli AI.
 
 
-# Impatto CO2 dell'Inferenza nei modelli AI
+## Impatto CO2 dell'Inferenza nei modelli AI
 
 L'articolo "Power Hungry Processing: ⚡ Watts ⚡ Driving the Cost of AI Deployment?" discute l'impatto ambientale dei sistemi AI generativi multiuso, che consumano molta energia e producono elevate emissioni di carbonio. La ricerca confronta i costi energetici e le emissioni di carbonio di vari modelli di machine learning, inclusi modelli specifici per compiti e modelli multiuso, esaminando 88 modelli attraverso 10 compiti e 30 dataset. I risultati mostrano che i modelli multiuso sono significativamente più costosi in termini di energia e emissioni rispetto ai modelli specifici per compiti, sollevando questioni sulla sostenibilità dell'uso diffuso di tali modelli.
 
