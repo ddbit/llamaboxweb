@@ -7,30 +7,35 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>llamabox</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="landing-assets/css/main.css" />
-	</head>
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+<head>
+	<title>llamabox</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="landing-assets/css/main.css" />
+	<!--font awesome-->
+	<script src="https://kit.fontawesome.com/4c0de2340c.js" crossorigin="anonymous"></script>
+</head>
 
-						<!-- Logo -->
-							<div id="logo" style="background-image: url('/images/lama.png'); background-size: contain; background-repeat: no-repeat; min-height: 125px; min-width: 125px;">
-							
-							</div>
+<body class="is-preload homepage">
+	<div id="page-wrapper">
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="articles">Articles</a></li>
-									<li><a href="gpuprices/">GPU Cost DB</a></li>
-								<!--
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
+
+				<!-- Logo -->
+				<div id="logo"
+					style="background-image: url('/images/lama.png'); background-size: contain; background-repeat: no-repeat; min-height: 125px; min-width: 125px;">
+
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="articles">Articles</a></li>
+						<li><a href="gpuprices/">GPU Cost DB</a></li>
+						<!--
 									<li>
 										<a href="#">Dropdown</a>
 										<ul>
@@ -52,214 +57,201 @@
 									<li><a href="right-sidebar.html">Right Sidebar</a></li>
 									<li><a href="no-sidebar.html">No Sidebar</a></li>
 								-->
-								</ul>
-							</nav>
+					</ul>
+				</nav>
 
-					</header>
-				</div>
+			</header>
+		</div>
 
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<h2>Hi. This is Llamabox.</h2>
-								<p>Un sito dedicato agli LLM e dintorni</p>
-							</div>
-							<div class="col-5 col-12-medium">
-								<ul>
-									<li><a href="/2023/11/07/Dalle-Reti-Neurali-Ricorrenti-(RNN)-ai-Transformer.html" class="button large icon solid fa-arrow-circle-right">Cosa sono gli LLM?</a></li>
-									<li><a href="about" class="button alt large icon solid fa-question-circle">About</a></li>
-								</ul>
-							</div>
-						</div>
+		<!-- Banner -->
+		<div id="banner-wrapper">
+			<div id="banner" class="box container">
+				<div class="row">
+					<div class="col-7 col-12-medium">
+						<h2>Hi. This is Llamabox.</h2>
+						<p>Un sito dedicato agli LLM e dintorni</p>
+					</div>
+					<div class="col-5 col-12-medium">
+						<ul>
+							<li><a href="/2023/11/07/Dalle-Reti-Neurali-Ricorrenti-(RNN)-ai-Transformer.html"
+									class="button large icon solid fa-arrow-circle-right">Cosa sono gli LLM?</a></li>
+							<li><a href="about" class="button alt large icon solid fa-question-circle">About</a></li>
+						</ul>
 					</div>
 				</div>
+			</div>
+		</div>
 
-			<!-- Features -->
-				<div id="features-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-medium">
+		<!-- Features -->
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
 
-								<!-- Box -->
-									<section class="box feature">
-										<a href="{{site.posts[0].url}}" class="image featured">
-											<img src="{{site.posts[0].image}}" alt="" />
-										</a>
-										
-										<div class="inner">
-											<header>
-												<a href="{{site.posts[0].url}}" class="image featured">
-													<h2>{{site.posts[0].title}}</h2>
-												</a>
-												
-												<p>{{site.posts[0].date | date: "%d-%-m-%Y" }}</p>
-											</header>
-											<p>{{site.posts[0].excerpt}}</p>
-										</div>
-									</section>
-								
+					<!-- Box -->
 
-							</div>
-							<div class="col-4 col-12-medium">
+					{% for post in site.posts %}
+					<div class="col-4 col-12-medium">
+						<section class="box feature">
+							<a href="{{ post.url }}" class="image featured">
+								<img src="{{ post.image }}" alt="" />
+							</a>
 
-								<!-- Box -->
-								<section class="box feature">
-									<a href="{{site.posts[1].url}}" class="image featured">
-										<img src="{{site.posts[1].image}}" alt="" />
+							<div class="inner">
+								<header>
+									<a href="{{ post.url }}" class="image featured">
+										<h2>{{ post.title }}</h2>
 									</a>
+
+									<p>{{ post.date | date: "%d-%-m-%Y" }}</p>
+								</header>
+								{% if post.category %}
+								<div>{{ post.category }}</div>
+								{% endif %}
+								<div style="color: darkgrey;">
+									{%- for tag in post.tags limit:3 -%}
 									
-									<div class="inner">
-										<header>
-											<a href="{{site.posts[1].url}}" class="image featured">
-												<h2>{{site.posts[1].title}}</h2>
-											</a>
-											
-											<p>{{site.posts[1].date | date: "%d-%-m-%Y" }}</p>
-										</header>
-										<p>{{site.posts[1].excerpt}}</p>
-									</div>
-								</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-								<section class="box feature">
-									<a href="{{site.posts[2].url}}" class="image featured">
-										<img src="{{site.posts[2].image}}" alt="" />
-									</a>
-									
-									<div class="inner">
-										<header>
-											<a href="{{site.posts[2].url}}" class="image featured">
-												<h2>{{site.posts[2].title}}</h2>
-											</a>
-											
-											<p>{{site.posts[2].date | date: "%d-%-m-%Y" }}</p>
-										</header>
-										<p>{{site.posts[2].excerpt}}</p>
-									</div>
-								</section>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-4 col-12-medium">
-
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<h3>Interesting stuff</h3>
-											<div class="grid">
-												<div class="row gtr-50">
-													{% assign p = site.posts %}
-													<div class="col-6"><a href="{{p[15].url}}" class="image fit"><img src="{{p[15].image}}" alt="" /></a></div>
-													
-													<div class="col-6"><a href="{{p[16].url}}" class="image fit"><img src="{{p[16].image}}" alt="" /></a></div>
-													<div class="col-6"><a href="{{p[14].url}}" class="image fit"><img src="{{p[14].image}}" alt="" /></a></div>
-													<div class="col-6"><a href="{{p[13].url}}" class="image fit"><img src="{{p[13].image}}" alt="" /></a></div>
-												</div>
-											</div>
-											<a href="articles" class="button icon fa-file-alt">More</a>
-										</section>
-									</div>
-
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
-											<h2>I Computer del Futuro non si programmano, si addestrano</h2>
-											<p>Così come la CPU è divenuto il componente definitivo nel mondo dell’elettronica, forse dobbiamo ora salutare la nascita del componente definitivo nel mondo dell’informazione. Il classificatore/decisore/regressore, insomma un modello matematico/statistico capace di ingurgitare dati e fornire predizioni. Un componente in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è sempre lo stesso. Macchine che apprendono</p>
-											<a href="/2024/02/27/i-computer-del-futuro-non-si-programmano.html" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
-										</section>
-									</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="{{p[10].url}}">{{p[10].title}}</a></li>
-											<li><a href="{{p[11].url}}">{{p[11].title}}</a></li>
-											<li><a href="{{p[12].url}}">{{p[12].title}}</a></li>
-											<li><a href="{{p[13].url}}">{{p[13].title}}</a></li>
-											<li><a href="{{p[14].url}}">{{p[14].title}}</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="{{p[5].url}}">{{p[5].title}}</a></li>
-											<li><a href="{{p[6].url}}">{{p[6].title}}</a></li>
-											<li><a href="{{p[7].url}}">{{p[7].title}}</a></li>
-											<li><a href="{{p[8].url}}">{{p[8].title}}</a></li>
-											<li><a href="{{p[9].url}}">{{p[9].title}}</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact last">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="https://x.com/digitaldavide" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="https://www.linkedin.com/groups/9549312/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-
-										</ul>
-									
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
+									  <i class="fa-solid fa-tag"></i> &nbsp; {{ tag }} &nbsp;
+									{%- endfor -%}
 								</div>
 							</div>
-						</div>
-					</footer>
+						</section>
+					</div>
+					{% endfor %}
+
+
 				</div>
-
 			</div>
+		</div>
+	</div>
 
-		<!-- Scripts -->
+	<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div class="row gtr-200">
+				<div class="col-4 col-12-medium">
 
-			<script src="landing-assets/js/jquery.min.js"></script>
-			<script src="landing-assets/js/jquery.dropotron.min.js"></script>
-			<script src="landing-assets/js/browser.min.js"></script>
-			<script src="landing-assets/js/breakpoints.min.js"></script>
-			<script src="landing-assets/js/util.js"></script>
-			<script src="landing-assets/js/main.js"></script>
+					<!-- Sidebar -->
+					<div id="sidebar">
+						<section class="widget thumbnails">
+							<h3>Interesting stuff</h3>
+							<div class="grid">
+								<div class="row gtr-50">
+									{% assign p = site.posts %}
+									<div class="col-6"><a href="{{p[15].url}}" class="image fit"><img
+												src="{{p[15].image}}" alt="" /></a></div>
 
-	</body>
+									<div class="col-6"><a href="{{p[16].url}}" class="image fit"><img
+												src="{{p[16].image}}" alt="" /></a></div>
+									<div class="col-6"><a href="{{p[14].url}}" class="image fit"><img
+												src="{{p[14].image}}" alt="" /></a></div>
+									<div class="col-6"><a href="{{p[13].url}}" class="image fit"><img
+												src="{{p[13].image}}" alt="" /></a></div>
+								</div>
+							</div>
+							<a href="articles" class="button icon fa-file-alt">More</a>
+						</section>
+					</div>
+
+				</div>
+				<div class="col-8 col-12-medium imp-medium">
+
+					<!-- Content -->
+					<div id="content">
+						<section class="last">
+							<h2>I Computer del Futuro non si programmano, si addestrano</h2>
+							<p>Così come la CPU è divenuto il componente definitivo nel mondo dell’elettronica,
+								forse dobbiamo ora salutare la nascita del componente definitivo nel mondo
+								dell’informazione. Il classificatore/decisore/regressore, insomma un modello
+								matematico/statistico capace di ingurgitare dati e fornire predizioni. Un componente
+								in grado di fare qualcosa simile in fondo a quello che fa il cervello umano, no non
+								dico pensare, ma riconoscere, giudicare, valutare. Parole come deep learning, reti
+								neurali, machine intelligence, etc. sono tutte variazioni sul tema ma il concetto è
+								sempre lo stesso. Macchine che apprendono</p>
+							<a href="/2024/02/27/i-computer-del-futuro-non-si-programmano.html"
+								class="button icon solid fa-arrow-circle-right">Continue Reading</a>
+						</section>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="footer-wrapper">
+		<footer id="footer" class="container">
+			<div class="row">
+				<div class="col-3 col-6-medium col-12-small">
+
+					<!-- Links -->
+					<section class="widget links">
+						<h3>Random Stuff</h3>
+						<ul class="style2">
+							<li><a href="{{p[10].url}}">{{p[10].title}}</a></li>
+							<li><a href="{{p[11].url}}">{{p[11].title}}</a></li>
+							<li><a href="{{p[12].url}}">{{p[12].title}}</a></li>
+							<li><a href="{{p[13].url}}">{{p[13].title}}</a></li>
+							<li><a href="{{p[14].url}}">{{p[14].title}}</a></li>
+						</ul>
+					</section>
+
+				</div>
+				<div class="col-3 col-6-medium col-12-small">
+
+					<!-- Links -->
+					<section class="widget links">
+						<h3>Random Stuff</h3>
+						<ul class="style2">
+							<li><a href="{{p[5].url}}">{{p[5].title}}</a></li>
+							<li><a href="{{p[6].url}}">{{p[6].title}}</a></li>
+							<li><a href="{{p[7].url}}">{{p[7].title}}</a></li>
+							<li><a href="{{p[8].url}}">{{p[8].title}}</a></li>
+							<li><a href="{{p[9].url}}">{{p[9].title}}</a></li>
+						</ul>
+					</section>
+
+				</div>
+				<div class="col-3 col-6-medium col-12-small">
+
+					<!-- Contact -->
+					<section class="widget contact last">
+						<h3>Contact Us</h3>
+						<ul>
+							<li><a href="https://x.com/digitaldavide" class="icon brands fa-twitter"><span
+										class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/groups/9549312/" class="icon brands fa-linkedin"><span
+										class="label">Linkedin</span></a></li>
+
+						</ul>
+
+					</section>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div id="copyright">
+						<ul class="menu">
+							<li>&copy; Untitled. All rights reserved</li>
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	</div>
+
+	<!-- Scripts -->
+
+	<script src="landing-assets/js/jquery.min.js"></script>
+	<script src="landing-assets/js/jquery.dropotron.min.js"></script>
+	<script src="landing-assets/js/browser.min.js"></script>
+	<script src="landing-assets/js/breakpoints.min.js"></script>
+	<script src="landing-assets/js/util.js"></script>
+	<script src="landing-assets/js/main.js"></script>
+
+</body>
+
 </html>

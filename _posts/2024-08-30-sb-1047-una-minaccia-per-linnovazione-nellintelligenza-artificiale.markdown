@@ -23,7 +23,7 @@ California’s SB 1047 è approdata all'assemblea statale ed è ora in attesa de
 ### Obiettivi Principali
 
 La proposta di legge SB 1047 stabilisce una serie di requisiti e protocolli di sicurezza che i sviluppatori di modelli di intelligenza artificiale devono rispettare prima di iniziare l'addestramento degli stessi. Tra gli obblighi imposti:
-- **Implementazione di protocolli di sicurezza:** I sviluppatori devono creare protocolli scritti di sicurezza che devono essere disponibili in forma non redatta per almeno cinque anni dopo che il modello è stato reso disponibile commercialmente o pubblicamente.
+- **Implementazione di protocolli di sicurezza:** I sviluppatori devono creare protocolli di sicurezza che devono essere disponibili per almeno cinque anni dopo che il modello è stato reso disponibile commercialmente o pubblicamente.
 - **Audit annuali:** Ogni anno, a partire dal 2026, i modelli devono essere sottoposti ad audit indipendenti per verificare la conformità ai requisiti di sicurezza.
 - **Segnalazione e accesso:** I sviluppatori devono inviare una dichiarazione di conformità all'Attorney General e segnalare qualsiasi incidente di sicurezza relativo all’intelligenza artificiale.
 - **Protezione dei whistleblowers:** La legge offre protezioni contro le ritorsioni nei confronti dei dipendenti che segnalano non conformità o rischi legati ai modelli di IA.
